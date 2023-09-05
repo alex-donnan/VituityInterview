@@ -1,0 +1,50 @@
+MSH|^~\&|MEDITECH|SAH|||202202101425||ORU^R01|347325274|P|2.3|||AL|NE|						
+EVN|R01|202202101425|						
+PID|1|SBA0102855|SA00401418|SA183137|DUCK^DONALD^L|DUCK,DAISY MAY|19370101|M||B|1111 MATTERHORN RD^^ORLANDO^FL^11111||999-999-9999|||W|BAP|SA0035802800|999-99-999|						
+PV1|1|E|ED|ER3|||ER VITUITY^ER^PHYSICIANS^^^^MD|||||||HOME||N||ER||MC|||||||||||||||||||SAH||REG|||202202101424|						
+OBR|1||10398221SAH|P.ED^ED Provider Record||202202101424|202202101424|202202101424||||||||||||MEDREC|P.ED||||S|||||||TINKERBELL^FAIRY^ANNA^A^PA-C|||FTINKERBELL^FAIRY^ANN|						
+OBX|1|TX|||ED - Rapid Medical Evaluation  |						
+OBX|2|TX|||General  |						
+OBX|3|TX|||Date seen in RME:  Feb 10, 2022  |						
+OBX|4|TX|||Time seen in RME:  14:18  |						
+OBX|5|TX|||RME Provider:  TINKERBELL,FAIRY ANN PA-C  |						
+OBX|6|TX|||Mode of Arrival:  walk in, sent in by PCP  |						
+OBX|7|TX|||  |						
+OBX|8|TX|||Evaluation  |						
+OBX|9|TX|||RME Comments:  |						
+OBX|10|TX|||This is a 84 yo F who presents to the ED for acute DVT to right femoral vein- venous doppler done at|						
+OBX|11|TX|||office.  |						
+OBX|12|TX|||call in by Dr. Peter Pan (Cinderella Bell General PCP)- acute free floating DVT in the R femoral vein at Seton |						
+OBX|13|TX|||imaging. no pmhx of DVT. no CP or SOB. not currently on AC.  |						
+OBX|14|TX|||  |						
+OBX|15|TX|||Reports right leg swelling x 3-4 days.  |						
+OBX|16|TX|||  |						
+OBX|17|TX|||PMHx: HTN.  |						
+OBX|18|TX|||All: NKDA.  |						
+OBX|19|TX|||Social: Nonsmoker.  |						
+OBX|20|TX|||  |						
+OBX|21|TX|||Alert, NAD.  |						
+OBX|22|TX|||  |						
+OBX|23|TX|||Denies SI/HI  |						
+OBX|24|TX|||  |						
+OBX|25|TX|||I have seen this patient and initiated a medical screening exam.  The patient will require further |						
+OBX|26|TX|||evaluation to ensure that an emergency medical condition does not exist or that one has been |						
+OBX|27|TX|||stabilized.  |						
+OBX|28|TX|||  |						
+OBX|29|TX|||Initial Workup  |						
+OBX|30|TX|||Labs:  Yes  |						
+OBX|31|TX|||  |						
+OBX|32|TX|||Authorized RN Protocol  |						
+OBX|33|TX|||ED SUSPECT DVT  |						
+OBX|34|TX|||  |						
+OBX|35|TX|||Disposition  |						
+OBX|36|TX|||Disposition:  Stay in RME  |						
+OBX|37|TX|||  |						
+OBX|38|TX|||  |						
+OBX|39|TX|||  |						
+OBX|40|TX|||TINKERBELL,FAIRY ANN PA-C                   Feb 10, 2022 14:24  |						
+OBX|41|TX|||  |						
+OBX|42|TX|||Originated by: 02/10/22 1424 TINKERBELL,FAIRY ANN PA-C  |						
+OBX|43|TX|||Electronically signed by:  |						
+OBX|44|TX|||02/10/22 1424 TINKERBELL,FAIRY ANN PA-C  |						
+OBX|45||FD||20220210|						

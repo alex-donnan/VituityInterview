@@ -1,0 +1,2099 @@
+{
+	"2.3": {
+		"DG1": {
+			"1": {
+				"field": "diagnosis_set_id",
+				"required": true
+			},
+			"2": {
+				"field": "diagnosis_coding_method",
+				"required": false
+			},
+			"3": {
+				"field": "diagnosis_code",
+				"required": false,
+				"datatype": "CE"
+			},
+			"4": {
+				"field": "diagnosis_description",
+				"required": false
+			},
+			"5": {
+				"field": "diagnosis_datetime",
+				"required": false
+			},
+			"6": {
+				"field": "diagnosis_type",
+				"required": true
+			},
+			"7": {
+				"field": "major_diagnostic_category",
+				"required": false,
+				"datatype": "CE"
+			},
+			"8": {
+				"field": "diagnostic_related_group",
+				"required": false,
+				"datatype": "CE"
+			},
+			"9": {
+				"field": "drg_approval_indicator",
+				"required": false
+			},
+			"10": {
+				"field": "drg_grouper_review_code",
+				"required": false
+			},
+			"11": {
+				"field": "outlier_type",
+				"required": false,
+				"datatype": "CE"
+			},
+			"12": {
+				"field": "outlier_days",
+				"required": false
+			},
+			"13": {
+				"field": "outlier_cost",
+				"required": false,
+				"datatype": "CP"
+			},
+			"14": {
+				"field": "grouper_version_type",
+				"required": false
+			},
+			"15": {
+				"field": "diagnosis_priority",
+				"required": false
+			},
+			"16": {
+				"field": "diagnosis_clinician",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"17": {
+				"field": "diagnosis_classification",
+				"required": false
+			},
+			"18": {
+				"field": "confidential_indicator",
+				"required": false
+			},
+			"19": {
+				"field": "attestation_datetime",
+				"required": false
+			}
+		},
+		"EVN": {
+			"1": {
+				"field": "event_type_code",
+				"required": false
+			},
+			"2": {
+				"field": "recorded_datetime",
+				"required": false
+			},
+			"3": {
+				"field": "planned_datetime",
+				"required": false
+			},
+			"4": {
+				"field": "event_reason_code",
+				"required": false
+			},
+			"5": {
+				"field": "operator_id",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"6": {
+				"field": "event_datetime",
+				"required": false
+			}
+		},
+		"GT1": {
+			"1": {
+				"field": "guarantor_set_id",
+				"required": true
+			},
+			"2": {
+				"field": "guarantor_number",
+				"required": false,
+				"datatype": "CX"
+			},
+			"3": {
+				"field": "guarantor_name",
+				"required": true,
+				"datatype": "XPN"
+			},
+			"4": {
+				"field": "guarantor_spouse_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"5": {
+				"field": "guarantor_address",
+				"required": false,
+				"datatype": "XAD"
+			},
+			"6": {
+				"field": "guarantor_phone_home",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"7": {
+				"field": "guarantor_phone_work",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"8": {
+				"field": "guarantor_birth_datetime",
+				"required": false
+			},
+			"9": {
+				"field": "guarantor_sex",
+				"required": false
+			},
+			"10": {
+				"field": "guarantor_type",
+				"required": false
+			},
+			"11": {
+				"field": "guarantor_relationship",
+				"required": false
+			},
+			"12": {
+				"field": "guarantor_ssn",
+				"required": false
+			},
+			"13": {
+				"field": "guarantor_start_date",
+				"required": false
+			},
+			"14": {
+				"field": "guarantor_end_date",
+				"required": false
+			},
+			"15": {
+				"field": "guarantor_priority",
+				"required": false
+			},
+			"16": {
+				"field": "guarantor_employer_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"17": {
+				"field": "guarantor_employer_address",
+				"required": false,
+				"datatype": "XAD"
+			},
+			"18": {
+				"field": "guarantor_employer_phone",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"19": {
+				"field": "guarantor_employee_id",
+				"required": false,
+				"datatype": "CX"
+			},
+			"20": {
+				"field": "guarantor_employment_status",
+				"required": false
+			},
+			"21": {
+				"field": "guarantor_organization",
+				"required": false,
+				"datatype": "XON"
+			},
+			"22": {
+				"field": "guarantor_billing_hold_flag",
+				"required": false
+			},
+			"23": {
+				"field": "guarantor_credit_rating_code",
+				"required": false,
+				"datatype": "CE"
+			},
+			"24": {
+				"field": "guarantor_death_datetime",
+				"required": false
+			},
+			"25": {
+				"field": "guarantor_death_flag",
+				"required": false
+			},
+			"26": {
+				"field": "guarantor_charge_adjustment_code",
+				"required": false,
+				"datatype": "CE"
+			},
+			"27": {
+				"field": "guarantor_household_income",
+				"required": false,
+				"datatype": "CP"
+			},
+			"28": {
+				"field": "guarantor_household_size",
+				"required": false
+			},
+			"29": {
+				"field": "guarantor_employer_id",
+				"required": false,
+				"datatype": "CX"
+			},
+			"30": {
+				"field": "guarantor_marital_status",
+				"required": false
+			},
+			"31": {
+				"field": "guarantor_hire_effective_datetime",
+				"required": false
+			},
+			"32": {
+				"field": "employment_end_datetime",
+				"required": false
+			},
+			"33": {
+				"field": "living_dependency",
+				"required": false
+			},
+			"34": {
+				"field": "ambulatory_status_code",
+				"required": false
+			},
+			"35": {
+				"field": "citizenship",
+				"required": false
+			},
+			"36": {
+				"field": "primary_language",
+				"required": false,
+				"datatype": "CE"
+			},
+			"37": {
+				"field": "living_arrangement",
+				"required": false
+			},
+			"38": {
+				"field": "publicity_indicator",
+				"required": false,
+				"datatype": "CE"
+			},
+			"39": {
+				"field": "protection_indicator",
+				"required": false
+			},
+			"40": {
+				"field": "student_indicator",
+				"required": false
+			},
+			"41": {
+				"field": "religion",
+				"required": false
+			},
+			"42": {
+				"field": "mothers_maiden_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"43": {
+				"field": "nationality_code",
+				"required": false,
+				"datatype": "CE"
+			},
+			"44": {
+				"field": "ethnic_group",
+				"required": false
+			},
+			"45": {
+				"field": "contact_person_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"46": {
+				"field": "contact_person_phone",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"47": {
+				"field": "contact_reason",
+				"required": false,
+				"datatype": "CE"
+			},
+			"48": {
+				"field": "contact_relationship_code",
+				"required": false
+			},
+			"49": {
+				"field": "job_title",
+				"required": false
+			},
+			"50": {
+				"field": "job_code_class",
+				"required": false,
+				"datatype": "JCC"
+			},
+			"51": {
+				"field": "guarantor_employers_organization_name",
+				"required": false,
+				"datatype": "XON"
+			},
+			"52": {
+				"field": "handicap",
+				"required": false
+			},
+			"53": {
+				"field": "job_status",
+				"required": false
+			},
+			"54": {
+				"field": "guarantor_financial_class",
+				"required": false,
+				"datatype": "FC"
+			},
+			"55": {
+				"field": "guarantor_race",
+				"required": false
+			}
+		},
+		"IN1": {
+			"1": {
+				"field": "insurance_set_id",
+				"required": true
+			},
+			"2": {
+				"field": "insurance_plan_id",
+				"required": true,
+				"datatype": "CE"
+			},
+			"3": {
+				"field": "insurance_company_id",
+				"required": true,
+				"datatype": "CX"
+			},
+			"4": {
+				"field": "insurance_company_name",
+				"required": false,
+				"datatype": "XON"
+			},
+			"5": {
+				"field": "insurance_company_address",
+				"required": false,
+				"datatype": "XAD"
+			},
+			"6": {
+				"field": "insurance_co_contact_person",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"7": {
+				"field": "insurance_co_phone_number",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"8": {
+				"field": "group_number",
+				"required": false
+			},
+			"9": {
+				"field": "group_name",
+				"required": false,
+				"datatype": "XON"
+			},
+			"10":{
+				"field": "insured_group_employer_id",
+				"required": false,
+				"datatype": "CX"
+			},
+			"11":{
+				"field": "insured_group_employer_name",
+				"required": false,
+				"datatype": "XON"
+			},
+			"12":{
+				"field": "plan_effective_date",
+				"required": false
+			},
+			"13":{
+				"field": "plan_expiration_date",
+				"required": false
+			},
+			"14":{
+				"field": "authorization_information",
+				"required": false,
+				"datatype": "CM_AUI"
+			},
+			"15":{
+				"field": "plan_type",
+				"required": false
+			},
+			"16":{
+				"field": "name_of_insured",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"17":{
+				"field": "insured_relationship_to_patient",
+				"required": false
+			},
+			"18":{
+				"field": "insured_date_of_birth",
+				"required": false
+			},
+			"19":{
+				"field": "insured_address",
+				"required": false,
+				"datatype": "XAD"
+			},
+			"20":{
+				"field": "assignment_of_benefits",
+				"required": false
+			},
+			"21":{
+				"field": "coordination_of_benefits",
+				"required": false
+			},
+			"22":{
+				"field": "coord_of_benefits_priority",
+				"required": false
+			},
+			"23":{
+				"field": "notice_of_admission_code",
+				"required": false
+			},
+			"24":{
+				"field": "notice_of_admission_date",
+				"required": false
+			},
+			"25":{
+				"field": "report_of_eigibility_code",
+				"required": false
+			},
+			"26":{
+				"field": "report_of_eligibility_date",
+				"required": false
+			},
+			"27":{
+				"field": "release_information_code",
+				"required": false
+			},
+			"28":{
+				"field": "pre_admit_cert",
+				"required": false
+			},
+			"29":{
+				"field": "verification_datetime",
+				"required": false
+			},
+			"30":{
+				"field": "verification_by",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"31":{
+				"field": "type_of_agreement_code",
+				"required": false
+			},
+			"32":{
+				"field": "billing_status",
+				"required": false
+			},
+			"33":{
+				"field": "lifetime_reserve_days",
+				"required": false
+			},
+			"34":{
+				"field": "delay_before_lifetime_reserve_days",
+				"required": false
+			},
+			"35":{
+				"field": "company_plan_code",
+				"required": false
+			},
+			"36":{
+				"field": "policy_number",
+				"required": false
+			},
+			"37":{
+				"field": "policy_deductible",
+				"required": false,
+				"datatype": "CP"
+			},
+			"38":{
+				"field": "policy_limit_amount",
+				"required": false,
+				"datatype": "CP"
+			},
+			"39":{
+				"field": "policy_limit_days",
+				"required": false
+			},
+			"40":{
+				"field": "room_rate_semi_private",
+				"required": false,
+				"datatype": "CP"
+			},
+			"41":{
+				"field": "room_rate_private",
+				"required": false,
+				"datatype": "CP"
+			},
+			"42":{
+				"field": "insured_employment_status",
+				"required": false,
+				"datatype": "CE"
+			},
+			"43":{
+				"field": "insured_sex",
+				"required": false
+			},
+			"44":{
+				"field": "insured_employer_address",
+				"required": false,
+				"datatype": "XAD"
+			},
+			"45":{
+				"field": "verification_status",
+				"required": false
+			},
+			"46":{
+				"field": "prior_insurance_plan_id",
+				"required": false
+			},
+			"47":{
+				"field": "coverage_type",
+				"required": false
+			},
+			"48":{
+				"field": "handicap",
+				"required": false
+			},
+			"49":{
+				"field": "insured_id_number",
+				"required": false,
+				"datatype": "CX"
+			}
+		},
+		"IN2": {
+			"1": {
+				"field": "insured_employee_id",
+				"required": false,
+				"datatype": "CX"
+			},
+			"2": {
+				"field": "insured_social_security_number",
+				"required": false
+			},
+			"3": {
+				"field": "insured_employer_name",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"4": {
+				"field": "employer_information_data",
+				"required": false
+			},
+			"5": {
+				"field": "mail_claim_party",
+				"required": false
+			},
+			"6": {
+				"field": "medicare_health_ins_card_number",
+				"required": false
+			},
+			"7": {
+				"field": "medicaid_case_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"8": {
+				"field": "medicaid_case_number",
+				"required": false
+			},
+			"9": {
+				"field": "champus_sponsor_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"10": {
+				"field": "champus_id_number",
+				"required": false
+			},
+			"11": {
+				"field": "dependent_of_champus_recipient",
+				"required": false,
+				"datatype": "CE"
+			},
+			"12": {
+				"field": "champus_organization",
+				"required": false
+			},
+			"13": {
+				"field": "champus_station",
+				"required": false
+			},
+			"14": {
+				"field": "champus_service",
+				"required": false
+			},
+			"15": {
+				"field": "champus_rank_grade",
+				"required": false
+			},
+			"16": {
+				"field": "champus_status",
+				"required": false
+			},
+			"17": {
+				"field": "champus_retire_date",
+				"required": false
+			},
+			"18": {
+				"field": "champus_non_avail_cert_on_file",
+				"required": false
+			},
+			"19": {
+				"field": "baby_coverage",
+				"required": false
+			},
+			"20": {
+				"field": "combine_baby_bill",
+				"required": false
+			},
+			"21": {
+				"field": "blood_deductible",
+				"required": false
+			},
+			"22": {
+				"field": "special_coverage_approval_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"23": {
+				"field": "special_coverage_approval_title",
+				"required": false
+			},
+			"24": {
+				"field": "non_covered_insurance_code",
+				"required": false
+			},
+			"25": {
+				"field": "payor_id",
+				"required": false,
+				"datatype": "CX"
+			},
+			"26": {
+				"field": "payor_subscriber_id",
+				"required": false,
+				"datatype": "CX"
+			},
+			"27": {
+				"field": "eligibility_source",
+				"required": false
+			},
+			"28": {
+				"field": "room_coverage_type_amount",
+				"required": false,
+				"datatype": "CM_RMC"
+			},
+			"29": {
+				"field": "policy_type_amount",
+				"required": false,
+				"datatype": "PTA"
+			},
+			"30": {
+				"field": "daily_deductible",
+				"required": false,
+				"datatype": "CM_DDI"
+			},
+			"31": {
+				"field": "living_dependency",
+				"required": false
+			},
+			"32": {
+				"field": "ambulatory_status",
+				"required": false
+			},
+			"33": {
+				"field": "citizenship",
+				"required": false
+			},
+			"34": {
+				"field": "primary_language",
+				"required": false,
+				"datatype": "CE"
+			},
+			"35": {
+				"field": "living_arrangement",
+				"required": false
+			},
+			"36": {
+				"field": "publicity_indicator",
+				"required": false,
+				"datatype": "CE"
+			},
+			"37": {
+				"field": "protection_indicator",
+				"required": false
+			},
+			"38": {
+				"field": "student_indicator",
+				"required": false
+			},
+			"39": {
+				"field": "religion",
+				"required": false
+			},
+			"40": {
+				"field": "mothers_maiden_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"41": {
+				"field": "nationality_code",
+				"required": false,
+				"datatype": "CE"
+			},
+			"42": {
+				"field": "ethnic_group",
+				"required": false
+			},
+			"43": {
+				"field": "marital_status",
+				"required": false
+			},
+			"44": {
+				"field": "employment_start_date",
+				"required": false
+			},
+			"45": {
+				"field": "employment_stop_date",
+				"required": false
+			},
+			"46": {
+				"field": "job_title",
+				"required": false
+			},
+			"47": {
+				"field": "job_code_class",
+				"required": false,
+				"datatype": "JCC"
+			},
+			"48": {
+				"field": "job_status",
+				"required": false
+			},
+			"49": {
+				"field": "employer_contact_person_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"50": {
+				"field": "employer_contact_person_phone_number",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"51": {
+				"field": "employer_contact_reason",
+				"required": false
+			},
+			"52": {
+				"field": "insured_contact_person_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"53": {
+				"field": "insured_contact_person_telephone_number",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"54": {
+				"field": "insured_contact_person_reason",
+				"required": false
+			},
+			"55": {
+				"field": "relationship_to_the_patient_start_date",
+				"required": false
+			},
+			"56": {
+				"field": "relationship_to_the_patient_stop_date",
+				"required": false
+			},
+			"57": {
+				"field": "insurance_company_contact_reason",
+				"required": false
+			},
+			"58": {
+				"field": "insurance_company_contact_phone_number",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"59": {
+				"field": "policy_scope",
+				"required": false
+			},
+			"60": {
+				"field": "policy_source",
+				"required": false
+			},
+			"61": {
+				"field": "patient_member_number",
+				"required": false,
+				"datatype": "CX"
+			},
+			"62": {
+				"field": "guarantors_relationship_to_insured",
+				"required": false
+			},
+			"63": {
+				"field": "insured_telephone_number_home",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"64": {
+				"field": "insured_employer_telephone_number",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"65": {
+				"field": "military_handicapped_program",
+				"required": false,
+				"datatype": "CE"
+			},
+			"66": {
+				"field": "suspend_flag",
+				"required": false
+			},
+			"67": {
+				"field": "co_pay_limit_flag",
+				"required": false
+			},
+			"68": {
+				"field": "stoploss_limit_flag",
+				"required": false
+			},
+			"69": {
+				"field": "insured_organization",
+				"required": false,
+				"datatype": "XON"
+			},
+			"70": {
+				"field": "insured_employer_organization",
+				"required": false,
+				"datatype": "XON"
+			},
+			"71": {
+				"field": "race",
+				"required": false
+			},
+			"72": {
+				"field": "patient_relationship_to_insured",
+				"required": false,
+				"datatype": "CE"
+			}
+		},
+		"MSH": {
+			"1": {
+				"field": "field_separator",
+				"required": true
+			},
+			"2": {
+				"field": "encoding_characters",
+				"required": true
+			},
+			"3": {
+				"field": "sending_application",
+				"required": false,
+				"datatype": "HD"
+			},
+			"4": {
+				"field": "sending_facility",
+				"required": false,
+				"datatype": "HD"
+			},
+			"5": {
+				"field": "receiving_application",
+				"required": false,
+				"datatype": "HD"
+			},
+			"6": {
+				"field": "receiving_facility",
+				"required": false,
+				"datatype": "HD"
+			},
+			"7": {
+				"field": "message_datetime",
+				"required": false
+			},
+			"8": {
+				"field": "security",
+				"required": false
+			},
+			"9": {
+				"field": "message_type",
+				"required": true,
+				"datatype": "CM_MSG"
+			},
+			"10": {
+				"field": "message_control_id",
+				"required": true
+			},
+			"11": {
+				"field": "processing_id",
+				"required": true
+			},
+			"12": {
+				"field": "version_id",
+				"required": true
+			},
+			"13": {
+				"field": "sequence_number",
+				"required": false
+			},
+			"14": {
+				"field": "continuation_pointer",
+				"required": false
+			},
+			"15": {
+				"field": "accept_acknowledgement_type",
+				"required": false
+			},
+			"16": {
+				"field": "application_acknowledgement_type",
+				"required": false
+			},
+			"17": {
+				"field": "country_code",
+				"required": false
+			},
+			"18": {
+				"field": "character_set",
+				"required": false
+			},
+			"19": {
+				"field": "principal_language_of_message",
+				"required": false,
+				"datatype": "CE"
+			}
+		},
+		"NK1": {
+			"1": {
+				"field": "next_kin_set_id",
+				"required": false
+			},
+			"2": {
+				"field": "next_kin_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"3": {
+				"field": "relationship",
+				"required": false,
+				"datatype": "CE"
+			},
+			"4": {
+				"field": "address",
+				"required": false,
+				"datatype": "XAD"
+			},
+			"5": {
+				"field": "phone_number",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"6": {
+				"field": "business_phone_number",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"7": {
+				"field": "contact_role",
+				"required": false,
+				"datatype": "CE"
+			},
+			"8": {
+				"field": "start_date",
+				"required": false
+			},
+			"9": {
+				"field": "end_date",
+				"required": false
+			},
+			"10": {
+				"field": "next_kin_job_title",
+				"required": false
+			},
+			"11": {
+				"field": "next_kin_code_class",
+				"required": false,
+				"datatype": "JCC"
+			},
+			"12": {
+				"field": "next_kin_employee_number",
+				"required": false,	
+				"datatype": "CX"
+			},	
+			"13": {
+				"field": "organization_name",
+				"required": false,
+				"datatype": "XON"
+			},
+			"14": {
+				"field": "marital_status",
+				"required": false
+			},
+			"15": {
+				"field": "sex",
+				"required": false
+			},
+			"16": {
+				"field": "date_of_birth",
+				"required": false
+			},
+			"17": {
+				"field": "living_dependency",
+				"required": false
+			},
+			"18": {
+				"field": "ambulatory_status",
+				"required": false
+			},
+			"19": {
+				"field": "citizenship",
+				"required": false
+			},
+			"20": {
+				"field": "primary_language",
+				"required": false,
+				"datatype": "CE"
+			},
+			"21": {
+				"field": "living_arrangement",
+				"required": false
+			},
+			"22": {
+				"field": "publicity_indicator",
+				"required": false,
+				"datatype": "CE"
+			},
+			"23": {
+				"field": "protection_indicator",
+				"required": false
+			},
+			"24": {
+				"field": "student_indicator",
+				"required": false
+			},
+			"25": {
+				"field": "religion",
+				"required": false
+			},
+			"26": {
+				"field": "mothers_maiden_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"27": {
+				"field": "nationality_code",
+				"required": false,
+				"datatype": "CE"
+			},
+			"28": {
+				"field": "ethnic_group",
+				"required": false
+			},
+			"29": {
+				"field": "contact_reason",
+				"required": false,
+				"datatype": "CE"
+			},
+			"30": {
+				"field": "contact_person_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"31": {
+				"field": "contact_person_telephone_number",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"32": {
+				"field": "contact_person_address",
+				"required": false,
+				"datatype": "XAD"
+			},
+			"33": {
+				"field": "next_kin_identifiers",
+				"required": false,
+				"datatype": "CX"
+			},
+			"34": {
+				"field": "job_status",
+				"required": false
+			},
+			"35": {
+				"field": "race",
+				"required": false
+			},
+			"36": {
+				"field": "handicap",
+				"required": false
+			},
+			"37": {
+				"field": "contact_person_social_security_number",
+				"required": false
+			}
+		},	
+		"OBR": {
+			"1": {
+				"field": "observation_request_set_id",
+				"required": false
+			},
+			"2": {
+				"field": "placer_order_number",
+				"required": false,
+				"datatype": "EI"
+			},
+			"3": {
+				"field": "filler_order_number",
+				"required": false,
+				"datatype": "EI"
+			},
+			"4": {
+				"field": "universal_service_identifier",
+				"required": true,
+				"datatype": "CE"
+			},
+			"5": {
+				"field": "priority",
+				"required": false
+			},
+			"6": {
+				"field": "requested_datetime",
+				"required": false
+			},
+			"7": {
+				"field": "observation_datetime",
+				"required": false
+			},
+			"8": {
+				"field": "observation_end_datetime",
+				"required": false
+			},
+			"9": {
+				"field": "collection_volume",
+				"required": false,
+				"datatype": "CQ"
+			},
+			"10": {
+				"field": "collector_identifier",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"11": {
+				"field": "specimen_action_code",
+				"required": false
+			},
+			"12": {
+				"field": "danger_code",
+				"required": false,
+				"datatype": "CE"
+			},
+			"13": {
+				"field": "relevant_clinical_information",
+				"required": false
+			},
+			"14": {
+				"field": "specimen_received_datetime",
+				"required": false
+			},
+			"15": {
+				"field": "specimen_source",
+				"required": false,
+				"datatype": "CM_SPS"
+			},
+			"16": {
+				"field": "ordering_provider",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"17": {
+				"field": "order_callback_phone",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"18": {
+				"field": "placer_field",
+				"required": false
+			},
+			"19": {
+				"field": "placer_field",
+				"required": false
+			},
+			"20": {
+				"field": "filler_field",
+				"required": false
+			},
+			"21": {
+				"field": "filler_field",
+				"required": false
+			},
+			"22": {
+				"field": "status_chng___datetime",
+				"required": false
+			},
+			"23": {
+				"field": "charge_to_practice",
+				"required": false,
+				"datatype": "CM_MOC"
+			},
+			"24": {
+				"field": "diagnostic_service_section_id",
+				"required": false
+			},
+			"25": {
+				"field": "result_status",
+				"required": false
+			},
+			"26": {
+				"field": "parent_result",
+				"required": false,
+				"datatype": "CM_PRL"
+			},
+			"27": {
+				"field": "quantity_timing",
+				"required": false,
+				"datatype": "TQ"
+			},
+			"28": {
+				"field": "result_copies_to",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"29": {
+				"field": "parent_number",
+				"required": false,
+				"datatype": "CM_EIP"
+			},
+			"30": {
+				"field": "transportation_mode",
+				"required": false
+			},
+			"31": {
+				"field": "reason_for_study",
+				"required": false,
+				"datatype": "CE"
+			},
+			"32": {
+				"field": "principal_result_interpreter",
+				"required": false,
+				"datatype": "CM_NDL"
+			},
+			"33": {
+				"field": "assistant_result_interpreter",
+				"required": false,
+				"datatype": "CM_NDL"
+			},
+			"34": {
+				"field": "technician",
+				"required": false,
+				"datatype": "CM_NDL"
+			},
+			"35": {
+				"field": "transcriptionist",
+				"required": false,
+				"datatype": "CM_NDL"
+			},
+			"36": {
+				"field": "scheduled_datetime",
+				"required": false
+			},
+			"37": {
+				"field": "number_of_sample_containers",
+				"required": false
+			},
+			"38": {
+				"field": "transport_logistics_of_collected_sample",
+				"required": false,
+				"datatype": "CE"
+			},
+			"39": {
+				"field": "collectors_comment",
+				"required": false,
+				"datatype": "CE"
+			},
+			"40": {
+				"field": "transport_arrangement_responsibility",
+				"required": false,
+				"datatype": "CE"
+			},
+			"41": {
+				"field": "transport_arranged",
+				"required": false
+			},
+			"42": {
+				"field": "escort_required",
+				"required": false
+			},
+			"43": {
+				"field": "planned_patient_transport_comment",
+				"required": false,
+				"datatype": "CE"
+			}
+		},
+		"OBX": {
+			"1": {
+				"field": "observation_set_id",
+				"required": false
+			},
+			"2": {
+				"field": "value_type",
+				"required": false
+			},
+			"3": {
+				"field": "observation_id",
+				"required": true,
+				"datatype": "CE"
+			},
+			"4": {
+				"field": "observation_sub_id",
+				"required": false
+			},
+			"5": {
+				"field": "observation_value",
+				"required": false
+			},
+			"6": {
+				"field": "units",
+				"required": false,
+				"datatype": "CE"
+			},
+			"7": {
+				"field": "references_range",
+				"required": false
+			},
+			"8": {
+				"field": "abnormal_flags",
+				"required": false
+			},
+			"9": {
+				"field": "probability",
+				"required": false
+			},
+			"10": {
+				"field": "nature_of_abnormal_test",
+				"required": false
+			},
+			"11": {
+				"field": "observed_result_status",
+				"required": true
+			},
+			"12": {
+				"field": "last_normal_values_datetime",
+				"required": false
+			},
+			"13": {
+				"field": "user_defined_access_checks",
+				"required": false
+			},
+			"14": {
+				"field": "observation_datetime",
+				"required": false
+			},
+			"15": {
+				"field": "producer_id",
+				"required": false,
+				"datatype": "CE"
+			},
+			"16": {
+				"field": "responsible_observer",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"17": {
+				"field": "observation_method",
+				"required": false,
+				"datatype": "CE"
+			}
+		},
+		"PD1": {
+			"1": {
+				"field": "living_dependency",
+				"required": false
+			},
+			"2": {
+				"field": "living_arrangement",
+				"required": false
+			},
+			"3": {
+				"field": "patient_primary_facility",
+				"required": false,
+				"datatype": "XON"
+			},
+			"4": {
+				"field": "patient_primary_care_provider_name_id",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"5": {
+				"field": "student_indicator",
+				"required": false
+			},
+			"6": {
+				"field": "handicap",
+				"required": false
+			},
+			"7": {
+				"field": "living_will",
+				"required": false
+			},
+			"8": {
+				"field": "organ_donor",
+				"required": false
+			},
+			"9": {
+				"field": "separate_bill",
+				"required": false
+			},
+			"10": {
+				"field": "duplicate_patient",
+				"required": false,
+				"datatype": "CX"
+			},
+			"11": {
+				"field": "publicity_indicator",
+				"required": false,
+				"datatype": "CE"
+			},
+			"12": {
+				"field": "protection_indicator",
+				"required": false
+			}
+		},
+		"PID": {
+			"1": {
+				"field": "patient_set_id",
+				"required": false
+			},
+			"2": {
+				"field": "patient_id_external",
+				"required": false,
+				"datatype": "CX"
+			},
+			"3": {
+				"field": "patient_id",
+				"required": true,
+				"datatype": "CX"
+			},
+			"4": {
+				"field": "alt_patient_id",
+				"required": false,
+				"datatype": "CX"
+			},
+			"5": {
+				"field": "patient_name",
+				"required": true,
+				"datatype": "XPN"
+			},
+			"6": {
+				"field": "mothers_maiden_name",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"7": {
+				"field": "patient_birth_datetime",
+				"required": false
+			},
+			"8": {
+				"field": "patient_sex",
+				"required": false
+			},
+			"9": {
+				"field": "patient_alias",
+				"required": false,
+				"datatype": "XPN"
+			},
+			"10": {
+				"field": "race",
+				"required": false
+			},
+			"11": {
+				"field": "patient_address",
+				"required": false,
+				"datatype": "XAD"
+			},
+			"12": {
+				"field": "county_code",
+				"required": false
+			},
+			"13": {
+				"field": "phone_number_home",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"14": {
+				"field": "phone_number_business",
+				"required": false,
+				"datatype": "XTN"
+			},
+			"15": {
+				"field": "primary_language",
+				"required": false,
+				"datatype": "CE"
+			},
+			"16": {
+				"field": "marital_status",
+				"required": false
+			},
+			"17": {
+				"field": "religion",
+				"required": false
+			},
+			"18": {
+				"field": "patient_account_number",
+				"required": false,
+				"datatype": "CX"
+			},
+			"19": {
+				"field": "patient_ssn",
+				"required": false
+			},
+			"20": {
+				"field": "drivers_license_number",
+				"required": false,
+				"datatype": "DLN"
+			},
+			"21": {
+				"field": "mothers_identifier",
+				"required": false,
+				"datatype": "CX"
+			},
+			"22": {
+				"field": "ethnic_group",
+				"required": false
+			},
+			"23": {
+				"field": "birth_place",
+				"required": false
+			},
+			"24": {
+				"field": "multiple_birth_indicator",
+				"required": false
+			},
+			"25": {
+				"field": "birth_order",
+				"required": false
+			},
+			"26": {
+				"field": "citizenship",
+				"required": false
+			},
+			"27": {
+				"field": "veterans_military_status",
+				"required": false,
+				"datatype": "CE"
+			},
+			"28": {
+				"field": "nationality_code",
+				"required": false,
+				"datatype": "CE"
+			},
+			"29": {
+				"field": "patient_death_datetime",
+				"required": false
+			},
+			"30": {
+				"field": "patient_death_indicator",
+				"required": false
+			}
+		},
+		"PV1": {
+			"1": {
+				"field": "visit_set_id",
+				"required": false
+			},
+			"2": {
+				"field": "patient_class",
+				"required": true
+			},
+			"3": {
+				"field": "assigned_patient_location",
+				"required": false,
+				"datatype": "PL"
+			},
+			"4": {
+				"field": "admission_type",
+				"required": false
+			},
+			"5": {
+				"field": "preadmit_number",
+				"required": false,
+				"datatype": "CX"
+			},
+			"6": {
+				"field": "prior_patient_location",
+				"required": false,
+				"datatype": "PL"
+			},
+			"7": {
+				"field": "attending_doctor",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"8": {
+				"field": "referring_doctor",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"9": {
+				"field": "consulting_doctor",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"10": {
+				"field": "hospital_service",
+				"required": false
+			},
+			"11": {
+				"field": "temporary_location",
+				"required": false,
+				"datatype": "PL"
+			},
+			"12": {
+				"field": "preadmit_test_indicator",
+				"required": false
+			},
+			"13": {
+				"field": "readmission_indicator",
+				"required": false
+			},
+			"14": {
+				"field": "admit_source",
+				"required": false
+			},
+			"15": {
+				"field": "ambulatory_status",
+				"required": false
+			},
+			"16": {
+				"field": "vip_indicator",
+				"required": false
+			},
+			"17": {
+				"field": "admitting_doctor",
+				"required": false,
+				"datatype": "XCN"
+			},
+			"18": {
+				"field": "patient_type",
+				"required": false
+			},
+			"19": {
+				"field": "visit_number",
+				"required": false,
+				"datatype": "CX"
+			},
+			"20": {
+				"field": "financial_class",
+				"required": false,
+				"datatype": "FC"
+			},
+			"21": {
+				"field": "charge_price_indicator",
+				"required": false
+			},
+			"22": {
+				"field": "courtesy_code",
+				"required": false
+			},
+			"23": {
+				"field": "credit_rating",
+				"required": false
+			},
+			"24": {
+				"field": "contract_code",
+				"required": false
+			},
+			"25": {
+				"field": "contract_effective_date",
+				"required": false
+			},
+			"26": {
+				"field": "contract_amount",
+				"required": false
+			},
+			"27": {
+				"field": "contract_period",
+				"required": false
+			},
+			"28": {
+				"field": "interest_code",
+				"required": false
+			},
+			"29": {
+				"field": "transfer_to_bad_debt_code",
+				"required": false
+			},
+			"30": {
+				"field": "transfer_to_bad_debt_date",
+				"required": false
+			},
+			"31": {
+				"field": "bad_debt_agency_code",
+				"required": false
+			},
+			"32": {
+				"field": "bad_debt_transfer_amount",
+				"required": false
+			},
+			"33": {
+				"field": "bad_debt_recovery_amount",
+				"required": false
+			},
+			"34": {
+				"field": "delete_account_indicator",
+				"required": false
+			},
+			"35": {
+				"field": "delete_account_date",
+				"required": false
+			},
+			"36": {
+				"field": "discharge_disposition",
+				"required": false
+			},
+			"37": {
+				"field": "discharged_to_location",
+				"required": false,
+				"datatype": "CM_DLD"
+			},
+			"38": {
+				"field": "diet_type",
+				"required": false
+			},
+			"39": {
+				"field": "servicing_facility",
+				"required": false
+			},
+			"40": {
+				"field": "bed_status",
+				"required": false
+			},
+			"41": {
+				"field": "account_status",
+				"required": false
+			},
+			"42": {
+				"field": "pending_location",
+				"required": false,
+				"datatype": "PL"
+			},
+			"43": {
+				"field": "prior_temporary_location",
+				"required": false,
+				"datatype": "PL"
+			},
+			"44": {
+				"field": "admit_date_time",
+				"required": false
+			},
+			"45": {
+				"field": "discharge_date_time",
+				"required": false
+			},
+			"46": {
+				"field": "current_patient_balance",
+				"required": false
+			},
+			"47": {
+				"field": "total_charges",
+				"required": false
+			},
+			"48": {
+				"field": "total_adjustments",
+				"required": false
+			},
+			"49": {
+				"field": "total_payments",
+				"required": false
+			},
+			"50": {
+				"field": "alternate_visit_id",
+				"required": false,
+				"datatype": "CX"
+			},
+			"51": {
+				"field": "visit_indicator",
+				"required": false
+			},
+			"52": {
+				"field": "other_healthcare_provider",
+				"required": false,
+				"datatype": "XCN"
+			}
+		},
+		"ZPV": {
+
+		}
+	},
+	"datatype": {
+		"CM_AUI": {
+			"field": "authorization_information",
+
+			"1": "authorization_number",
+			"2": "datetime",
+			"3": "source"
+		},
+		"CM_DDI": {
+			"field": "daily_deductible",
+
+			"1": "delay_days",
+			"2": "amount",
+			"3": "number_of_days"
+		},
+		"CM_DLD": {
+			"field": "discharge_location",
+
+			"1": "discharge_location",
+			"2": "effective_date"
+		},
+		"CM_EIP": {
+			"field": "parent_order",
+
+			"1": "placer_order_number",
+			"2": "filler_order_number"
+		},
+		"CM_MOC": {
+			"field": "charge_to_practice",
+
+			"1": "dollar_amount",
+			"2": "charge_code"
+		},
+		"CM_MSG": {
+			"field": "message_type",
+
+			"1": "message_type",
+			"2": "trigger_event"
+		},
+		"CM_NDL": {
+			"field": "observing_practitioner",
+
+			"1": "op_name",
+			"2": "start_datetime",
+			"3": "end_datetime",
+			"4": "point_of_care",
+			"5": "room",
+			"6": "bed",
+			"7": "facility",
+			"8": "location_status",
+			"9": "person_location_type",
+			"10": "building",
+			"11": "floor"
+		},
+		"CM_PRL": {
+			"field": "parent_result_link",
+
+			"1": "result_id",
+			"2": "result_sub_id",
+			"3": "result"
+		},
+		"CM_RMC": {
+			"field": "room_coverage",
+
+			"1": "room_type",
+			"2": "amount_type",
+			"3": "coverage_amount"
+		},
+		"CM_SPS": {
+			"field": "specimen_source",
+
+			"1": "specimen_source_name_code",
+			"2": "additives",
+			"3": "text",
+			"4": "body_site",
+			"5": "site_modifier",
+			"6": "collection_modifier_code"
+		},
+		"CE": {
+			"field": "coded_element",
+
+			"1": "id",
+			"2": "text",
+			"3": "coding_system",
+			"4": "alt_id",
+			"5": "alt_text",
+			"6": "alt_coding_system"
+		},
+		"CP": {
+			"field": "composite_price",
+
+			"1": "price",
+			"2": "price_type",
+			"3": "from",
+			"4": "to",
+			"5": "range_unit",
+			"6": "range_type"
+		},
+		"CQ": {
+			"field": "composite_quantity",
+
+			"1": "quantity",
+			"2": "units"
+		},
+		"CX": {
+			"field": "extended_composite_id_check_digit",
+
+			"1": "id",
+			"2": "id_check_digit",
+			"3": "id_check_digit_scheme",
+			"4": "authority",
+			"5": "id_type_code",
+			"6": "id_facility"
+		},
+		"DLN": {
+			"field": "drivers_license_number",
+
+			"1": "drivers_license_number",
+			"2": "issuing_state_province_country",
+			"3": "expiration_date"
+		},
+		"EI": {
+			"field": "entity_id",
+
+			"1": "entity_id",
+			"2": "namespace_id",
+			"3": "universal_id",
+			"4": "universal_id_type"
+		},
+		"FC": {
+			"field": "financial_class",
+
+			"1": "financial_class",
+			"2": "effective_date"
+		},
+		"HD": {
+			"field": "hierarchic_designator",
+
+			"1": "namespace_id",
+			"2": "universal_id",
+			"3": "universal_id_type"
+		},
+		"JCC": {
+			"field": "job_code_class",
+
+			"1": "job_code",
+			"2": "job_class"
+		},
+		"PL": {
+			"field": "person_location",
+
+			"1": "point_of_care",
+			"2": "room",
+			"3": "bed",
+			"4": "facility",
+			"5": "location_status",
+			"6": "person_location_type",
+			"7": "building",
+			"8": "floor",
+			"9": "location_type"
+		},
+		"PT": {
+			"field": "processing_type",
+
+			"1": "processing_id",
+			"2": "processing_mode"
+		},
+		"PTA": {
+			"field": "policy_type",
+
+			"1": "policy_type",
+			"2": "amount_class",
+			"3": "amount"
+		},
+		"TQ": {
+			"field": "timing_quantity",
+
+			"1": "quantity",
+			"2": "interval",
+			"3": "duration",
+			"4": "start_datetime",
+			"5": "end_datetime",
+			"6": "priority",
+			"7": "condition",
+			"8": "text",
+			"9": "conjunction",
+			"10": "order_sequencing"
+		},
+		"XAD": {
+			"field": "extended_address",
+
+			"1": "street_address",
+			"2": "street_address2",
+			"3": "city",
+			"4": "state",
+			"5": "zip",
+			"6": "country",
+			"7": "address_type",
+			"8": "other_geographic_designation",
+			"9": "county_parish_code",
+			"10": "census_tract"
+		},
+		"XCN": {
+			"field": "extended_composite_id_name",
+
+			"1": "id",
+			"2": "last_name",
+			"3": "first_name",
+			"4": "middle_name",
+			"5": "suffix",
+			"6": "prefix",
+			"7": "degree",
+			"8": "source_table",
+			"9": "authority",
+			"10": "name_type",
+			"11": "id_check_digit",
+			"12": "id_check_digit_scheme",
+			"13": "id_type_code",
+			"14": "id_facility"
+		},
+		"XON": {
+			"field": "extended_organization_id_name",
+
+			"1": "organization_name",
+			"2": "organization_type_code",
+			"3": "id",
+			"4": "id_check_digit",
+			"5": "id_check_digit_scheme",
+			"6": "authority",
+			"7": "id_type_code",
+			"8": "id_facility"
+		},
+		"XPN": {
+			"field": "extended_persons_name",
+
+			"1": "last_name",
+			"2": "first_name",
+			"3": "middle_name",
+			"4": "suffix",
+			"5": "prefix",
+			"6": "degree",
+			"7": "name_type_code",
+			"8": "name_representation_code"
+		},
+		"XTN": {
+			"field": "extended_telephone_number",
+			
+			"1": "telephone_number",
+			"2": "telecom_use_code",
+			"3": "telecom_equipment_type",
+			"4": "email_address",
+			"5": "country_code",
+			"6": "area_city_code",
+			"7": "phone_number",
+			"8": "extension",
+			"9": "any_text"
+		}
+	}
+}

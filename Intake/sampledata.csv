@@ -1,0 +1,201 @@
+#,id,site_id,service_location,message_type,message_time,message_id,account_number,discharge_disposition,financial_class,patient_first_name,patient_last_name,patient_middle_name,patient_address_1,patient_address_2,patient_city,patient_state,patient_zip,patient_zip4,patient_date_of_birth,patient_deceased_date,patient_sex,patient_ssn,referring_doctor_id,attending_doctor_id,patient_ethnicity,patient_race,patient_language,patient_smoking_status,patient_email_address,patient_cell_phone_area_code,patient_cell_phone_number,patient_marital_status,bill_amount,patient_drivers_license_number,guarantor_first_name,guarantor_last_name,guarantor_middle_name,guarantor_address_1,guarantor_address_2,guarantor_city,guarantor_state,guarantor_zip
+1,30056263,C22,1,ADT-A08,19:00.0,5885975,CA00001,,PPO,testinggirl,mu,,12345 Address line,SOMEWHERE,VALENCIA,CA,91355,    ,00:00.0,,F,999999999,,,,UN,,,,,,O,700,,Testing,MU,,12345,SOMEWHERE,VALENCIA,CA,91355
+2,30056267,C22,1,ADT-A08,44:00.0,5885976,CA00001,,PPO,testinggirl,mu,,12346 Address line,SOMEWHERE,VALENCIA,CA,91355,    ,00:00.0,,F,999999999,,,,UN,,,,,,O,727,,Testing,MU,,12345,SOMEWHERE,VALENCIA,CA,91355
+3,30056269,C22,1,ADT-A08,14:00.0,5885977,CA00001,,PPO,testinggirl,mu,,12347 Address line,SOMEWHERE,VALENCIA,CA,91355,    ,00:00.0,,F,999999999,,,,UN,,,,,,O,728,,Testing,MU,,12345,SOMEWHERE,VALENCIA,CA,91355
+4,30058986,C22,1,ADT-A08,30:00.0,5886054,CA00001,,PPO,testinggirl,mu,,12348 Address line,SOMEWHERE,VALENCIA,CA,91355,    ,00:00.0,,F,999999999,,,,UN,,,,,,O,912,,Testing,MU,,12345,SOMEWHERE,VALENCIA,CA,91355
+5,30630702,I99,1,ADT-A04,48:28.0,5886293,CA00003,,Self-pay,QINEVAAcuteprone,Printegratedtest,John,12349 Address line,,EVANSVILLE,IN,47714,    ,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intpr01@ascension.org,812,4014424,O,984,,QINEVAAcuteprone,Printegratedtest,A,951 S Hebron Ave,,EVANSVILLE,IN,47714
+6,30630703,I99,1,ADT-A04,52:29.0,5886294,CA00004,,Self-pay,INEVAAcuteprtwo,Printegratedtest,John,12350 Address line,,EVANSVILLE,IN,47714,    ,00:00.0,,M,,,,OTH,White,EN,,kimberly.dahler+intpr02@ascension.org,812,4375105,O,572,,INEVAAcuteprtwo,Printegratedtest,A,1015 Professional Blvd,,EVANSVILLE,IN,47714
+7,30630704,I99,1,ADT-A02,54:29.0,5886295,CA00005,,Self-pay,INEVAAcuteprtwo,Printegratedtest,John,12351 Address line,,EVANSVILLE,IN,47714,    ,00:00.0,,M,,,,OTH,White,EN,,kimberly.dahler+intpr02@ascension.org,812,4375105,O,729,,,,,,,,,
+8,30630705,I99,1,ADT-A08,54:29.0,5886296,CA00006,,Self-pay,INEVAAcuteprtwo,Printegratedtest,John,12352 Address line,,EVANSVILLE,IN,47714,    ,00:00.0,,M,,,,OTH,White,EN,,kimberly.dahler+intpr02@ascension.org,812,4375105,O,783,,INEVAAcuteprtwo,Printegratedtest,A,1015 PROFESSIONAL BLVD,,EVANSVILLE,IN,47714
+9,30630706,I99,1,ADT-A04,58:05.0,5886297,CA00007,,Self-pay,QINEVAAcuteprthree,Printegratedtest,John,12353 Address line,,EVANSVILLE,IN,47714,    ,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intpr03@ascension.org,812,4376789,O,443,,QINEVAAcuteprthree,Printegratedtest,A,1147 Brunswick,,EVANSVILLE,IN,47714
+10,30630707,I92,1,ADT-A04,02:08.0,5886298,CA00008,,Self-pay,QININDAcuteprfour,Printegratedtest,John,12354 Address line,,AVON,IN,46123,    ,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intpr04@ascension.org,317,2099983,O,734,,QININDAcuteprfour,Printegratedtest,A,9719 Rockville Rd,,AVON,IN,46123
+11,30630709,I99,1,ADT-A08,10:53.0,5886300,CA00009,,Self-pay,QINEVAAcuteprone,Printegratedtest,John,12355 Address line,,EVANSVILLE,IN,47714,    ,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intpr01@ascension.org,812,4014424,O,592,,QINEVAAcuteprone,Printegratedtest,A,951 S HEBRON AVE,,EVANSVILLE,IN,47714
+12,30630738,I99,1,ADT-A03,25:49.0,5886329,CA00010,Routine,Self-pay,INEVAAcuteprtwo,Printegratedtest,John,12356 Address line,,EVANSVILLE,NY,47714,    ,00:00.0,,M,,,,OTH,White,EN,,kimberly.dahler+intpr02@ascension.org,812,4375105,O,805,,,,,,,,,
+13,30630736,I99,1,ADT-A08,25:01.0,5886328,CA00011,Routine,Self-pay,QINEVAAcuteprone,Printegratedtest,John,12357 Address line,,EVANSVILLE,NY,47714,    ,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intpr01@ascension.org,812,4014424,O,598,,QINEVAAcuteprone,Printegratedtest,A,951 S HEBRON AVE,,EVANSVILLE,IN,47714
+14,30630737,I99,1,ADT-A03,25:01.0,5886327,CA00012,Routine,Self-pay,QINEVAAcuteprone,Printegratedtest,John,12358 Address line,,EVANSVILLE,NY,47714,    ,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intpr01@ascension.org,812,4014424,O,748,,,,,,,,,
+15,30630739,I99,1,ADT-A08,25:49.0,5886330,CA00013,Routine,Self-pay,INEVAAcuteprtwo,Printegratedtest,John,12359 Address line,,EVANSVILLE,NY,47714,    ,00:00.0,,M,,,,OTH,White,EN,,kimberly.dahler+intpr02@ascension.org,812,4375105,O,731,,INEVAAcuteprtwo,Printegratedtest,A,1015 PROFESSIONAL BLVD,,EVANSVILLE,IN,47714
+16,30630740,I99,1,ADT-A03,26:50.0,5886331,CA00014,Routine,Self-pay,QINEVAAcuteprthree,Printegratedtest,John,12360 Address line,,EVANSVILLE,IN,47714,    ,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intpr03@ascension.org,812,4376789,O,749,,,,,,,,,
+17,30630741,I99,1,ADT-A08,26:50.0,5886332,CA00015,Routine,Self-pay,QINEVAAcuteprthree,Printegratedtest,John,12361 Address line,,EVANSVILLE,IN,47714,    ,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intpr03@ascension.org,812,4376789,O,519,,QINEVAAcuteprthree,Printegratedtest,A,1147 BRUNSWICK,,EVANSVILLE,IN,47714
+18,30630742,I92,1,ADT-A03,29:14.0,5886333,CA00016,Routine,Self-pay,QININDAcuteprfour,Printegratedtest,John,12362 Address line,,AVON,IN,46123,    ,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intpr04@ascension.org,317,2099983,O,631,,,,,,,,,
+19,30630743,I92,1,ADT-A08,29:14.0,5886334,CA00017,Routine,Self-pay,QININDAcuteprfour,Printegratedtest,John,12363 Address line,,AVON,IN,46123,    ,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intpr04@ascension.org,317,2099983,O,336,,QININDAcuteprfour,Printegratedtest,A,9719 ROCKVILLE RD,,AVON,IN,46123
+20,30630987,A48,1,ADT-A35,56:14.0,5886578,CA00018,,P,Hnaonec,Uctest,,12364 Address line,,Schenectady,NY,12345,    ,00:00.0,,M,878777777,52285,1497844278,NON,I,EN,,,867,8657777,O,810,,,,,,,,,
+21,30630988,A48,1,ADT-A35,49:32.0,5886579,CA00019,,P,Hnaonec,Uctest,,12365 Address line,,Schenectady,NY,12345,    ,00:00.0,,M,878777777,52285,1497844278,NON,I,EN,,,867,8657777,O,661,,,,,,,,,
+22,30631002,A48,1,ADT-A35,01:33.0,5886593,CA00020,,P,Hnaonec,Uctest,,12366 Address line,,Schenectady,NY,12345,    ,00:00.0,,M,878777777,52285,1497844278,NON,I,EN,,,867,8657777,O,337,,,,,,,,NY,
+23,30631138,A48,1,ADT-A04,51:19.0,5886729,CA00021,,P,john,mktest,,12367 Address line,,,,,,00:00.0,,M,0,,1497844278,NON,I,EN,,,812,2320000,,671,,,,,,,,NY,
+24,30631172,A48,1,ADT-A01,36:17.0,5886763,CA00022,,P,john,mktest,,12368 Address line,,,,,,00:00.0,,M,0,,1497844278,NON,I,EN,,,812,2320000,,315,,john,mktest,,,,,NY,
+25,30631173,A48,1,ADT-A01,47:56.0,5886764,CA00023,,P,trial,mktest,,12369 Address line,,,,,,00:00.0,,M,0,,1497844278,NON,W,EN,,,812,2312222,,406,,,,,,,,NY,
+26,30631179,A48,1,ADT-A04,05:17.0,5886770,CA00024,,P,ruth,mktest,,12370 Address line,,,,,,,,M,0,,1497844278,,,EN,,,812,2321111,,697,,,,,,,,,
+27,30631294,I99,1,ADT-A03,35:20.0,5886885,CA00007,Routine,Self-pay,INEVAAcuteprtwo,Printegratedtest,A,12371 Address line,,EVANSVILLE,IN,47714,,00:00.0,,M,,,,OTH,White,EN,,kimberly.dahler+intprrt02@ascension.org,812,4375105,O,367,,,,,,,,,
+28,30631295,I99,1,ADT-A03,49:44.0,5886886,CA00008,Routine,Self-pay,QINEVAAcuteprthree,Printegratedtest,Mary,12372 Address line,,EVANSVILLE,IN,47714,,00:00.0,,F,,,,OTH,White,EN,,kimberly.dahler+intprrt03@ascension.org,812,4376789,O,315,,,,,,,,,
+29,30631455,I88,1,ADT-A08,24:38.0,5887046,CA00009,Admitted,,ittest,Randolph,Mary,12373 Address line,,SEDALIA,IN,46067,,,,F,,,,UNK,U,EN,,,317,8978900,O,878,,ittest,Randolph,S,123,,SEDALIA,IN,46067
+30,30631457,I88,1,ADT-A08,33:59.0,5887048,CA00010,Admitted,Self-pay,ittest,Randolph,Mary,12374 Address line,,SEDALIA,IN,46067,,,,F,,,,UNK,U,EN,,,317,8978900,O,963,,ittest,Randolph,S,123,,SEDALIA,IN,46067
+31,30631536,I88,1,ADT-A04,53:56.0,5887127,CA00011,,,ittest,Randolph,Mary,12375 Address line,,INDIANAPOLIS,IN,46237,,,,F,,,,,,,,,,,,357,,ittest,Randolph,S,8451 S EMERSON AVE,,INDIANAPOLIS,IN,46237
+32,30631537,I88,1,ADT-A08,53:56.0,5887128,CA00012,Admitted,,ittest,Randolph,Mary,12376 Address line,,SEDALIA,NY,46067,,,,F,,,,UNK,U,EN,,,317,8978900,O,744,,ittest,Randolph,S,123,,SEDALIA,IN,46067
+33,30631538,I88,1,ADT-A08,53:57.0,5887129,CA00013,Admitted,Self-pay,ittest,Randolph,Mary,12377 Address line,,SEDALIA,IN,46067,,,,F,,,,UNK,U,EN,,,317,8978900,O,421,,ittest,Randolph,S,123,,SEDALIA,IN,46067
+34,30056230,C22,1,ADT-A01,13:00.0,5885969,CA00014,,SELF,test,mommy,Mary,12378 Address line,,,,,,00:00.0,,F,999999999,,,,CA,,,,,,O,703,,TEST,MOMMY,,,,,,
+35,30054942,C22,1,ADT-A05,02:00.0,5885809,CA00015,,PPO,testing,schuyler,,12379 Address line,,,  ,91355,    ,00:00.0,,M,999999999,,,,CA,,,,,,O,789,,Testing,Schuyler,,1232 snowline drive,,frazier park,CA,93225
+36,30054246,A48,1,ADT-A01,03:21.0,5885099,CA00016,,P,amy,bdtest,,12380 Address line,,ROCKVILLE,IN,47872,    ,00:00.0,,F,999999999,23051,1497844278,NON,W,EN,,,812,2222222,O,650,,amy,bdtest,,ADDRESS LINE 1,,ROCKVILLE,IN,47872
+37,30054294,A48,1,ADT-A01,48:17.0,5885154,CA00020,,A,Hna,Uctest,,12381 Address line,,BLUE SPRINGS,MO,64015,3254,00:00.0,,F,999999999,52285,1497844278,NON,I,EN,,,816,6666666,O,602,,Hna,Uctest,,3248 NW MILL DR,,BLUE SPRINGS,MO,64015
+38,30054296,A48,1,ADT-A13,49:46.0,5885156,CA00021,,A,Hna,Uctest,,12382 Address line,,BLUE SPRINGS,MO,64015,3254,00:00.0,,F,999999999,52285,1497844278,NON,I,EN,,,816,6666666,O,995,,Hna,Uctest,,3248 NW MILL DR,,BLUE SPRINGS,MO,64015
+39,30056115,C22,1,ADT-A01,50:00.0,5885953,CA00022,,PPO,testing,schuyler,,12383 Address line,,frazier park,CA,93225,    ,00:00.0,,M,999999999,,,,CA,,,,,,O,340,,Testing,Schuyler,,1232 snowline drive,,frazier park,CA,93225
+40,30056185,C22,1,ADT-A08,55:00.0,5885968,CA00023,,PPO,testing,schuyler,,12384 Address line,,frazier park,CA,93225,    ,00:00.0,,M,999999999,,,,CA,,,,,,O,412,,Testing,Schuyler,,1232 snowline drive,,frazier park,CA,93225
+41,30056241,C22,1,ADT-A08,45:00.0,5885971,CA00020,,SELF,test,mommy,,12385 Address line,,,,,,00:00.0,,F,999999999,,,,CA,,,,,,O,926,,TEST,MOMMY,,,,,,
+42,30056272,C22,1,ADT-A08,26:00.0,5885978,CA00021,,PPO,testinggirl,mu,,12386 Address line,SOMEWHERE,VALENCIA,CA,91355,    ,00:00.0,,F,999999999,,,,UN,,,,,,O,473,,Testing,MU,,12345,SOMEWHERE,VALENCIA,CA,91355
+43,30056274,C22,1,ADT-A08,00:00.0,5885979,CA00022,,PPO,testinggirl,mu,,12387 Address line,SOMEWHERE,VALENCIA,CA,91355,    ,00:00.0,,F,999999999,,,,UN,,,,,,O,633,,Testing,MU,,12345,SOMEWHERE,VALENCIA,CA,91355
+44,30057171,C22,1,ADT-A08,06:00.0,5886006,CA00023,,PPO,testinggirl,mu,,12388 Address line,SOMEWHERE,VALENCIA,CA,91355,    ,00:00.0,,F,999999999,,,,UN,,,,,,O,970,,Testing,MU,,12345,SOMEWHERE,VALENCIA,CA,91355
+45,30058985,C22,1,ADT-A08,28:00.0,5886053,CA00001,,PPO,testinggirl,mu,,12389 Address line,SOMEWHERE,VALENCIA,CA,91355,    ,00:00.0,,F,999999999,,,,UN,,,,,,O,569,,Testing,MU,,12345,SOMEWHERE,VALENCIA,CA,91355
+46,30059083,C22,1,ADT-A03,26:00.0,5886060,CA00003,HOME,PPO,testinggirl,mu,,12390 Address line,SOMEWHERE,VALENCIA,CA,91355,    ,00:00.0,,F,999999999,,,,UN,,,,,,O,724,,,,,,,,,
+47,30631293,I99,1,ADT-A03,19:54.0,5886884,CA00004,Routine,Self-pay,QINEVAAcuteprone,Printegratedtest,A,12391 Address line,,EVANSVILLE,IN,47714,,00:00.0,,F,999999999,,,OTH,White,EN,,kimberly.dahler+intprrt01@ascension.org,812,4014424,O,630,,,,,,,,,
+48,30630797,I99,1,ADT-A04,32:51.0,5886388,CA00005,,Self-pay,QINEVAAcuteprthree,Printegratedtest,A,12392 Address line,,EVANSVILLE,IN,47714,,00:00.0,,F,999999999,,,OTH,White,EN,,kimberly.dahler+intpr03@ascension.org,812,4376789,O,828,,QINEVAAcuteprthree,Printegratedtest,A,1147 Brunswick,,EVANSVILLE,IN,47714
+49,30631055,A48,1,ADT-A02,23:08.0,5886646,CA00006,,P,Viewpoint,Cttest,,12393 Address line,,Terre Haute,NY,47804,    ,00:00.0,,F,999999999,52285,1497844278,NON,W,EN,,,,,O,359,,,,,,,,,
+50,30631134,A48,1,ADT-A04,34:34.0,5886725,CA00007,,P,ally,mktest,,12394 Address line,,,,,,00:00.0,,F,999999999,,1497844278,NON,I,EN,,,812,4662111,,930,,,,,,,,,
+51,30631452,I88,1,ADT-A04,17:36.0,5887043,CA00023,,,ittest,Randolph,S,12395 Address line,,INDIANAPOLIS,IN,46237,,,,F,999999999,,,,,,,,,,,383,,ittest,Randolph,S,8451 S EMERSON AVE,,INDIANAPOLIS,IN,46237
+52,36,I71,1,ORM-O01,06:11.0,3286404,CA00020,,P,Transfer,Cttest,,12396 Address line,,,IN,     ,    ,00:00.0,,F,999999999,,,,W,,,kmorris1@iuhealth.org,,,O,872,,Transfer,Cttest,,kmorris1@iuhealth.org,,,  ,     
+53,37,I71,1,ORM-O01,06:10.0,3286403,CA00021,,P,Transfer,Cttest,,12397 Address line,,,IN,     ,    ,00:00.0,,F,999999999,,,,W,,,kmorris1@iuhealth.org,,,O,331,,Transfer,Cttest,,kmorris1@iuhealth.org,,,NY,     
+54,2226046,I71,1,ORM-O01,09:17.0,3352678,CA00022,AHR,P,Brandon,Uptest,,12398 Address line,,Danville,IN,46122,    ,00:00.0,,M,999999999,,,NON,X,EN,,,889,2828282,O,615,,Brandon,Uptest,,11028 Chandler Way,,Danville,IN,46122
+55,2226150,I71,1,ADT-A04,12:38.0,3352761,CA00023,,P,Finmerge,Uptest,,12399 Address line,,,IN,     ,    ,00:00.0,,F,999999999,,,,W,,,,,,O,611,,Finmerge,Uptest,,,,,IN,     
+56,2226151,I71,1,ADT-A02,12:40.0,3352762,CA00001,,P,Finmerge,Uptest,,12400 Address line,,,IN,     ,    ,00:00.0,,F,999999999,,,,W,,,,,,O,577,,,,,,,,,
+57,2226152,I71,1,ADT-A02,13:47.0,3352763,CA00003,,P,Finmerge,Uptest,,12401 Address line,,,IN,     ,    ,00:00.0,,F,0,,,,W,,,,,,O,690,,,,,,,,NY,
+58,2226155,I71,1,ADT-A02,49:45.0,3352907,CA00023,,P,Unerfin,Uptest,,12402 Address line,,,IN,     ,    ,00:00.0,,F,0,,,,W,,,,,,O,610,,,,,,,,,
+59,2226158,I71,1,ADT-A03,12:36.0,3352909,CA00020,AHR,P,Unerfin,Uptest,,12403 Address line,,,TN,     ,    ,00:00.0,,F,0,,,,W,,,,,,O,571,,,,,,,,,
+60,2226156,I71,1,ADT-A04,49:43.0,3352906,CA00021,,P,Unerfin,Uptest,,12404 Address line,,,TN,     ,    ,00:00.0,,F,0,,,,W,,,,,,O,515,,Unerfin,Uptest,,,,,IN,     
+61,2226157,I71,1,ADT-A02,08:07.0,3352908,CA00022,,P,Unerfin,Uptest,,12405 Address line,,,TN,     ,    ,00:00.0,,F,0,,,,W,,,,,,O,949,,,,,,,,,
+62,65987,C14,1,ADT-A04,44:00.0,3352104,CA00023,,,ashley,test,,12406 Address line,,,TN,,,00:00.0,,F,,,,,,,,,,,,379,,,,,,,,,
+63,2231491,I71,1,ADT-A02,49:22.0,3358244,CA00001,,P,Ufinmerge,Uptest,,12407 Address line,,Terre Haute,TN,47805,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,729,,,,,,,,,
+64,2231494,I71,1,ADT-A02,50:00.0,3358247,CA00003,,P,Ufinmerge,Uptest,,12408 Address line,,Terre Haute,TN,47805,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,417,,,,,,,,,
+65,45821,I71,1,ORM-O01,19:54.0,3332163,CA00021,,P,Disney,Cttest,,12409 Address line,,INDIANAPOLIS,TN,46202,212,00:00.0,,F,999999999,,,NON,X,EN,,,317,5545848,O,728,,Disney,Cttest,,1515 N SENATE AVE,,INDIANAPOLIS,IN,46202
+66,45824,I71,1,ORM-O01,19:55.0,3332166,CA00022,,P,Disney,Cttest,,12410 Address line,,INDIANAPOLIS,TN,46202,212,00:00.0,,F,999999999,,,NON,X,EN,,,317,5545848,O,822,,Disney,Cttest,,1515 N SENATE AVE,,INDIANAPOLIS,IN,46202
+67,6356055,I71,1,ADT-A04,09:29.0,3500453,CA00023,,P,Unerfourwcone,Cttest,,12411 Address line,,,TN,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,548,,Unerfourwcone,Cttest,,,,,IN,     
+68,6356056,I71,1,ADT-A02,09:31.0,3500454,CA00001,,P,Unerfourwcone,Cttest,,12412 Address line,,,TN,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,513,,,,,,,,,
+69,6356058,I71,1,ADT-A02,10:25.0,3500456,CA00003,,P,Unerfourwcone,Cttest,,12413 Address line,,,TN,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,926,,,,,,,,,
+70,6356062,I71,1,ADT-A04,14:21.0,3500460,CA00023,,P,Unerfourwctwo,Cttest,,12414 Address line,,,IN,     ,    ,00:00.0,,F,0,,,,W,,,,,,O,504,,Unerfourwctwo,Cttest,,,,,IN,     
+71,6356063,I71,1,ADT-A02,14:22.0,3500461,CA00020,,P,Unerfourwctwo,Cttest,,12415 Address line,,,IN,     ,    ,00:00.0,,F,0,,,,W,,,,,,O,379,,,,,,,,,
+72,6356064,I71,1,ADT-A02,15:12.0,3500462,CA00021,,P,Unerfourwctwo,Cttest,,12416 Address line,,,IN,     ,    ,00:00.0,,F,0,,,,W,,,,,,O,394,,,,,,,,,
+73,15287,I71,1,ORM-O01,41:04.0,3301641,CA00021,,P,Tori,Ctcaptest,,12417 Address line,,Dowden Acres,IN,47802,    ,00:00.0,,F,999999999,,,NON,W,EN,,,,,O,376,,Tori,Ctcaptest,,3847 Bellview Dr,,Dowden Acres,IN,47802
+74,15286,I71,1,ADT-A07,41:03.0,3301635,CA00022,,P,Tori,Ctcaptest,,12418 Address line,,Dowden Acres,IN,47802,    ,00:00.0,,F,999999999,,,NON,W,EN,,,,,O,523,,Tori,Ctcaptest,,3847 Bellview Dr,,Dowden Acres,IN,47802
+75,15288,I71,1,ADT-A08,41:04.0,3301637,CA00023,,P,Tori,Ctcaptest,Kerry,12419 Address line,,Dowden Acres,IN,47802,    ,00:00.0,,F,999999999,,,NON,W,EN,,,,,O,522,,Tori,Ctcaptest,,3847 Bellview Dr,,Dowden Acres,IN,47802
+76,15293,I71,1,ORM-O01,41:05.0,3301642,CA00001,,P,Tori,Ctcaptest,Kerry,12420 Address line,,Dowden Acres,IN,47802,    ,00:00.0,,F,999999999,,,NON,W,EN,,,,,O,854,,Tori,Ctcaptest,,3847 Bellview Dr,,Dowden Acres,IN,47802
+77,15330,I71,1,ORM-O01,50:24.0,3301679,CA00003,,P,Tori,Ctcaptest,Kerry,12421 Address line,,Dowden Acres,IN,47802,    ,00:00.0,,F,999999999,,,NON,W,EN,,,,,O,918,,Tori,Ctcaptest,,3847 Bellview Dr,,Dowden Acres,IN,47802
+78,15331,I71,1,ORM-O01,50:25.0,3301680,CA00023,,P,Tori,Ctcaptest,Kerry,12422 Address line,,Dowden Acres,IN,47802,    ,00:00.0,,F,999999999,,,NON,W,EN,,,,,O,753,,Tori,Ctcaptest,,3847 Bellview Dr,,Dowden Acres,IN,47802
+79,15343,I71,1,ORM-O01,53:46.0,3301693,CA00020,,P,Tori,Ctcaptest,Kerry,12423 Address line,,Dowden Acres,IN,47802,    ,00:00.0,,F,999999999,,,NON,W,EN,,,,,O,644,,Tori,Ctcaptest,,3847 Bellview Dr,,Dowden Acres,IN,47802
+80,15345,I71,1,ORM-O01,53:47.0,3301694,CA00021,,P,Tori,Ctcaptest,Kerry,12424 Address line,,Dowden Acres,IN,47802,    ,00:00.0,,F,999999999,,,NON,W,EN,,,,,O,366,,Tori,Ctcaptest,,3847 Bellview Dr,,Dowden Acres,IN,47802
+81,48437,E35,1,ADT-A03,06:00.0,3334777,CA00003,Routine,WC,Zztesterreg1,Zzcert,Kerry,12425 Address line,,Visalia,CA,93291,    ,00:00.0,,F,999999999,,,NotHIS,White,en,,ilovecats@gmail.com,,,O,523,,,,,,,,  ,     
+82,48440,E35,1,ADT-A04,01:00.0,3334779,CA00023,,,zztestUC2,zzcert,Kerry,12426 Address line,,Visalia,CA,93291,    ,00:00.0,,M,999999999,,,NotHIS,White,en,,,,,O,387,,zztestUC2,zzcert,,400 W Mineral King Ave,,Visalia,CA,93291
+83,48444,E35,1,ADT-A03,37:00.0,3334784,CA00020,Routine,,zztestUC2,zzcert,Kerry,12427 Address line,,Visalia,CA,93291,    ,00:00.0,,M,999999999,,,NotHIS,White,en,,,,,O,344,,,,,,,,  ,     
+84,48445,E35,1,ADT-A08,37:00.0,3334785,CA00021,Routine,,zztestUC2,zzcert,Kerry,12428 Address line,,Visalia,CA,93291,    ,00:00.0,,M,,,,NotHIS,White,en,,,,,O,686,,zztestUC2,zzcert,,400 W Mineral King Ave,,Visalia,CA,93291
+85,48462,E35,1,ADT-A04,52:00.0,3334803,CA00021,,TRICARE,Nick,Zztest,,12429 Address line,"""""",Tulare,CA,     ,    ,00:00.0,,M,,,,Unknown,White,en,,blahblahblah@gmail.com,,,O,849,,Nick,Zztest,,1000 Your Street,"""""",Tulare,CA,     
+86,6356080,I71,1,ADT-A04,18:25.0,3500478,CA00022,,P,Unertwoecone,Cttest,,12430 Address line,,,IN,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,401,,Unertwoecone,Cttest,,,,,IN,     
+87,6356081,I71,1,ADT-A02,18:26.0,3500479,CA00023,,P,Unertwoecone,Cttest,,12431 Address line,,,IN,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,730,,,,,,,,,
+88,48464,E35,1,ADT-A03,56:00.0,3334804,CA00022,Admitted,TRICARE,Nick,Zztest,,12432 Address line,,Tulare,CA,     ,    ,00:00.0,,M,,,,Unknown,White,en,,blahblahblah@gmail.com,,,O,745,,,,,,,,  ,     
+89,6356082,I71,1,ADT-A02,19:05.0,3500480,CA00023,,P,Unertwoecone,Cttest,,12433 Address line,,,IN,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,360,,,,,,,,,
+90,6356105,I71,1,ORM-O01,40:55.0,3500504,CA00024,,P,Unerfourwcone,Cttest,,12434 Address line,,,IN,     ,    ,00:00.0,,M,,,,,W,,,,,,O,772,,Unerfourwcone,Cttest,,,,,IN,     
+91,6356106,I71,1,ORM-O01,40:56.0,3500505,CA00007,,P,Wayne,Bruce,Thomas,12435 Address line,,,IN,     ,    ,00:00.0,,M,,,,,W,,,,,,O,365,,Unerfourwcone,Cttest,,,,,IN,     
+92,6356117,I71,1,ADT-A02,49:41.0,3500516,CA00022,,P,Unerfourwcone,Cttest,,12436 Address line,,,IN,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,861,,,,,,,,,
+93,6356118,I71,1,ORM-O01,49:41.0,3500517,CA00023,,P,Unerfourwcone,Cttest,,12437 Address line,,,IN,     ,    ,00:00.0,,M,,,,,W,,,,,,O,485,,Unerfourwcone,Cttest,,,,,IN,     
+94,6356119,I71,1,ORM-O01,49:42.0,3500518,CA00024,,P,Unerfourwcone,Cttest,,12438 Address line,,,IN,     ,    ,00:00.0,,M,,,,,W,,,,,,O,705,,Unerfourwcone,Cttest,,,,,IN,     
+95,71473,E35,1,ADT-A04,47:00.0,3352500,CA00007,,,ethnicity,test,,12439 Address line,,,  ,     ,    ,00:00.0,,F,,,,,,,,,,,,448,,ethnicity,test,,,,,  ,     
+96,71478,E35,1,ADT-A08,50:00.0,3352501,CA00008,,Self-pay,ethnicity,test,,12440 Address line,,,  ,     ,    ,00:00.0,,F,,,,D,AsianC,,,,,,,406,,ethnicity,test,,,,,NY,     
+97,2226011,I71,1,ADT-A03,07:16.0,3352602,CA00009,AHR,P,El,Kara,Zor,12441 Address line,,Knightsville,IN,47857,    ,00:00.0,,M,999999999,,,NON,W,EN,,,812,3333333,O,551,,,,,,,,NY,
+98,2226027,I71,1,ADT-A03,11:14.0,3352618,CA00010,AHR,P,Brandon,Uptest,,12442 Address line,,Danville,IN,46122,    ,00:00.0,,M,999999999,,,NON,X,EN,,,889,2828282,O,771,,,,,,,,NY,
+99,2226012,I71,1,ADT-A02,27:48.0,3352601,CA00001,,P,Untest,Upttest,,12443 Address line,,Knightsville,IN,47857,    ,00:00.0,,M,999999999,,,NON,W,EN,,,812,3333333,O,614,,,,,,,,NY,
+100,2226013,I71,1,ADT-A02,08:34.0,3352604,CA00001,,P,Kent,Kal,El,12444 Address line,,Knightsville,IN,47857,    ,00:00.0,,M,999999999,,,NON,W,EN,,,812,3333333,O,511,,,,,,,,,
+101,64992,I71,1,ORM-O01,54:49.0,3351175,CA00003,,P,unerone,Upttest,,12445 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,,W,,,,,,O,700,,unerone,Upttest,,,,,IN,     
+102,64996,I71,1,ORM-O01,54:50.0,3351177,CA00001,,P,unerone,Upttest,,12446 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,,W,,,,,,O,727,,unerone,Upttest,,,,,IN,     
+103,66094,I71,1,ADT-A04,38:11.0,3352211,CA00001,,P,Santa,Uptest,,12447 Address line,,,TX,     ,    ,00:00.0,,M,999999999,,,,W,,,,,,O,728,,Santa,Uptest,,,,,IN,     
+104,65002,I71,1,ADT-A02,57:27.0,3351182,CA00003,,P,unerone,Upttest,,12448 Address line,,,TX,     ,    ,00:00.0,,M,999999999,,,,W,,,,,,O,912,,,,,,,,,
+105,66095,I71,1,ADT-A02,38:11.0,3352212,CA00004,,P,Santa,Uptest,,12449 Address line,,,TX,     ,    ,00:00.0,,M,999999999,,,,W,,,,,,O,984,,,,,,,,,
+106,66096,I71,1,ADT-A02,39:14.0,3352213,CA00005,,P,Santa,Uptest,,12450 Address line,,,TX,     ,    ,00:00.0,,M,999999999,,,,W,,,,,,O,572,,,,,,,,,
+107,65003,I71,1,ORM-O01,57:28.0,3351184,CA00006,,P,unerone,Upttest,,12451 Address line,,,TX,     ,    ,00:00.0,,M,999999999,,,,W,,,,,,O,729,,unerone,Upttest,,,,,IN,     
+108,66097,I71,1,ORM-O01,42:01.0,3352214,CA00022,,P,Santa,Uptest,,12452 Address line,,,TX,     ,    ,00:00.0,,M,999999999,,,,W,,,,,,O,783,,Santa,Uptest,,,,,IN,     
+109,6356186,I71,1,ORM-O01,10:54.0,3500585,CA00023,,P,Unerfourwctwo,Cttest,,12453 Address line,,,TX,     ,    ,00:00.0,,F,999999999,,,,W,,,,,,O,443,,Unerfourwctwo,Cttest,,,,,IN,     
+110,6356187,I71,1,ORM-O01,10:55.0,3500586,CA00024,,P,Unerfourwctwo,Cttest,,12454 Address line,,,TX,     ,    ,00:00.0,,F,999999999,,,,W,,,,,,O,734,,Unerfourwctwo,Cttest,,,,,IN,     
+111,2252083,I71,1,ADT-A02,43:18.0,3378836,CA00007,,P,Snowman,Uptest,,12455 Address line,,,TX,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,592,,,,,,,,,
+112,2252090,I71,1,ADT-A02,44:23.0,3378843,CA00008,,P,Snowman,Uptest,Clark,12456 Address line,,,TX,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,805,,,,,,,,,
+113,2252110,I71,1,ADT-A02,48:51.0,3378863,CA00009,,P,Snowman,Uptest,Clark,12457 Address line,,,IN,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,598,,,,,,,,,
+114,2231370,I71,1,ADT-A04,19:58.0,3358121,CA00010,,P,Ufinmerge,Uptest,Clark,12458 Address line,,,IN,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,748,,Ufinmerge,Uptest,,,,,IN,     
+115,2231371,I71,1,ADT-A02,19:59.0,3358122,CA00004,,P,Ufinmerge,Uptest,Clark,12459 Address line,,,IN,     ,    ,00:00.0,,M,0,,,,W,,,,,,O,731,,,,,,,,,
+116,2231776,I71,1,ADT-A03,10:41.0,3358529,CA00005,AHR,P,Ufinmerge,Uptest,Clark,12460 Address line,,Terre Haute,IN,47805,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,749,,,,,,,,,
+117,2231372,I71,1,ADT-A02,20:38.0,3358123,CA00006,,P,Ufinmerge,Uptest,Clark,12461 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,,W,,,,,,O,519,,,,,,,,TN,
+118,2231373,I71,1,ADT-A03,25:32.0,3358124,CA00022,AHR,P,Ufinmerge,Uptest,Clark,12462 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,,W,,,,,,O,631,,,,,,,,TN,
+119,2231377,I71,1,ADT-A02,34:50.0,3358126,CA00023,,P,Ufinmerge,Uptest,Clark,12463 Address line,,Terre Haute,IN,47805,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,336,,,,,,,,TN,
+120,2231378,I71,1,ADT-A02,35:13.0,3358129,CA00024,,P,Ufinmerge,Uptest,Clark,12464 Address line,,Terre Haute,TX,47805,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,810,,,,,,,,TN,
+121,2231379,I71,1,ORU-R01,57:35.0,3358130,CA00001,,P,Finmerge,Uptest,Clark,12465 Address line,,,IN,     ,    ,00:00.0,,F,999999999,,,,W,,,,,,O,661,,,,,,,,TN,
+122,2231383,I71,1,ADT-A03,57:40.0,3358136,CA00002,AHR,P,Finmerge,Uptest,,12466 Address line,,,IN,     ,    ,00:00.0,,F,999999999,,,,W,,,,,,O,337,,,,,,,,TN,
+123,2231384,I71,1,ADT-A03,59:13.0,3358137,CA00003,AHR,P,Ufinmerge,Uptest,,12467 Address line,,Terre Haute,IN,47805,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,671,,,,,,,,,
+124,45820,I71,1,ADT-A07,19:54.0,3332160,CA00004,,P,Disney,Cttest,,12468 Address line,,INDIANAPOLIS,IN,46202,212,00:00.0,,F,999999999,,,NON,X,EN,,,317,5545848,O,315,,Disney,Cttest,,1515 N SENATE AVE,,INDIANAPOLIS,IN,46202
+125,45827,I71,1,ADT-A08,19:56.0,3332167,CA00005,,P,Disney,Cttest,,12469 Address line,,INDIANAPOLIS,IN,46202,212,00:00.0,,F,999999999,,,NON,X,EN,,,317,5545848,O,406,,Disney,Cttest,,1515 N SENATE AVE,,INDIANAPOLIS,IN,46202
+126,45830,I71,1,ORM-O01,20:06.0,3332175,CA00006,,A,Arnold,Cttest,,12470 Address line,,Fort Benjamin,IN,46216,    ,00:00.0,,M,999999999,,,HIS,B,EN,,,317,8983333,O,697,,Arnold,Cttest,,1158 Winters Way,,Fort Benjamin,IN,46216
+127,45836,I71,1,ADT-A07,20:06.0,3332176,CA00007,,A,Arnold,Cttest,,12471 Address line,,Fort Benjamin,TX,46216,    ,00:00.0,,M,999999999,,,HIS,B,EN,,,317,8983333,O,367,,Arnold,Cttest,,1158 Winters Way,,Fort Benjamin,IN,46216
+128,45837,I71,1,ADT-A08,20:07.0,3332177,CA00008,,A,Arnold,Cttest,,12472 Address line,,Fort Benjamin,IN,46216,    ,00:00.0,,M,999999999,,,HIS,B,EN,,,317,8983333,O,315,,Arnold,Cttest,,1158 Winters Way,,Fort Benjamin,IN,46216
+129,45851,I71,1,ORM-O01,26:21.0,3332191,CA00009,,A,Arnold,Cttest,,12473 Address line,,Fort Benjamin,IN,46216,    ,00:00.0,,M,999999999,,,HIS,B,EN,,,317,8983333,O,878,,Arnold,Cttest,,1158 Winters Way,,Fort Benjamin,IN,46216
+130,45852,I71,1,ORM-O01,26:23.0,3332192,CA00010,,A,Arnold,Cttest,,12474 Address line,,Fort Benjamin,IN,46216,    ,00:00.0,,M,999999999,,,HIS,B,EN,,,317,8983333,O,963,,Arnold,Cttest,,1158 Winters Way,,Fort Benjamin,IN,46216
+131,2231386,E35,1,ADT-A04,24:00.0,3358139,CA00011,,,Zztest2020,Zzcert,,12475 Address line,,,  ,     ,    ,00:00.0,,F,999999999,,,,,,,,,,,357,,Zztest2020,Zzcert,,,,,  ,     
+132,2231388,E35,1,ADT-A04,26:00.0,3358141,CA00012,,,ZztestED20,Zzcert,,12476 Address line,,,  ,     ,    ,00:00.0,,M,,,,,,,,,,,,744,,ZztestED20,Zzcert,,,,,  ,     
+133,2231389,E35,1,ADT-A04,26:00.0,3358142,CA00013,,,ZztestED21,Zzcert,,12477 Address line,,,  ,     ,    ,00:00.0,,M,,,,,,,,,,,,421,,ZztestED21,Zzcert,,,,,  ,     
+134,2231392,E35,1,ADT-A04,35:00.0,3358145,CA00014,,,ZztestED44,Zzcert,,12478 Address line,,,  ,     ,    ,00:00.0,,F,,,,,,,,,,,,703,,ZztestED44,Zzcert,,,,,  ,     
+135,2231394,E35,1,ADT-A04,25:00.0,3358147,CA00015,,,Zztest,ZZtest,"""""",12479 Address line,,,  ,     ,    ,00:00.0,,F,,,,,,,,,,,,789,,Zztest,ZZtest,"""""",,,,  ,     
+136,2231398,E35,1,ADT-A04,37:00.0,3358151,CA00016,,,Zztest11,Zztest20,"""""",12480 Address line,,,  ,     ,    ,00:00.0,,F,,,,,,,,,,,,650,,Zztest11,Zztest20,"""""",,,,  ,     
+137,2231401,E35,1,ADT-A04,07:00.0,3358154,CA00017,,,ZztestED1,ZztestED,,12481 Address line,,,  ,     ,    ,00:00.0,,F,,,,,,,,,,,,602,,ZztestED1,ZztestED,,,,,  ,     
+138,2231405,E35,1,ADT-A04,16:00.0,3358158,CA00018,,,ZztestED,Zztest,,12482 Address line,,,  ,     ,    ,00:00.0,,M,,,,,,,,,,,,995,,ZztestED,Zztest,,,,,  ,     
+139,48415,E35,1,ADT-A03,20:00.0,3334757,CA00019,Routine,Mcare A,Lee L,zztestRoderick,,12483 Address line,,Porterville,CA,     ,    ,00:00.0,,M,,,,NotHIS,White,en,,,,,O,340,,,,,,,,  ,     
+140,48417,E35,1,ADT-A04,12:00.0,3334756,CA00020,,Mcare A,Lee L,zztestRoderick,,12484 Address line,"""""",Porterville,CA,     ,    ,00:00.0,,M,,,,NotHIS,White,en,,,,,O,412,,Lee L,zztestRoderick,,1310 N Jennifer Way,"""""",Porterville,CA,     
+141,48418,E35,1,ADT-A08,20:00.0,3334758,CA00021,Routine,Mcare A,Lee L,zztestRoderick,,12485 Address line,,Porterville,CA,     ,    ,00:00.0,,M,,,,NotHIS,White,en,,,,,O,926,,Lee L,zztestRoderick,,1310 N Jennifer Way,,Porterville,CA,     
+142,48419,E35,1,ADT-A08,23:00.0,3334759,CA00022,Routine,Mcare A,Lee L,zztestRoderick,,12486 Address line,,Porterville,CA,     ,    ,00:00.0,,M,,,,NotHIS,White,en,,,,,O,473,,Lee L,zztestRoderick,,1310 N Jennifer Way,,Porterville,CA,     
+143,48420,E35,1,ADT-A08,25:00.0,3334760,CA00023,Routine,Mcare A,Lee L,zztestRoderick,,12487 Address line,,Porterville,CA,39257,    ,00:00.0,,M,,,,NotHIS,White,en,,,,,O,633,,Lee L,zztestRoderick,,1310 N Jennifer Way,,Porterville,CA,39257
+144,48421,E35,1,ADT-A08,30:00.0,3334761,CA00024,Routine,Mcare A,Lee L,zztestRoderick,,12488 Address line,,Porterville,CA,93257,    ,00:00.0,,M,,,,NotHIS,White,en,,,,,O,970,,Lee L,zztestRoderick,,1310 N Jennifer Way,,Porterville,CA,93257
+145,48422,E35,1,ADT-A08,34:00.0,3334763,CA00025,Routine,Mcare A,Lee L,zztestRoderick,,12489 Address line,,Porterville,CA,93257,    ,00:00.0,,M,,,,NotHIS,White,en,,,,,O,569,,Lee L,zztestRoderick,,1310 N Jennifer Way,,Porterville,CA,93257
+146,48424,E35,1,ADT-A08,54:00.0,3334764,CA00026,Routine,Mcare A,Lee L,zztestRoderick,,12490 Address line,,Porterville,CA,93257,    ,00:00.0,,M,,,,NotHIS,White,en,,,,,O,724,,Lee L,zztestRoderick,,1310 N Jennifer Way,,Porterville,CA,93257
+147,48431,E35,1,ADT-A08,30:00.0,3334772,CA00027,,Auto Med,Zztesterreg2,Zzcert,,12491 Address line,,Visalia,TX,93277,    ,00:00.0,,F,,,,NotHIS,White,en,,testing@outlook.com,,,O,630,,Zztesterreg2,Zzcert,,132 Star Lane,,Visalia,CA,93277
+148,48433,E35,1,ADT-A08,38:00.0,3334773,CA00028,,WC,Zztesterreg1,Zzcert,,12492 Address line,,Visalia,CA,93291,    ,00:00.0,,F,,,,NotHIS,White,en,,ilovecats@gmail.com,,,O,828,,Zztesterreg1,Zzcert,,315 E Main St Ste C,,Visalia,CA,93291
+149,48434,E35,1,ADT-A04,49:00.0,3334774,CA00029,,Mcare A,JImmy,zztestGrtmr,,12493 Address line,"""""",Visalia,CA,93291,    ,00:00.0,,M,,,,Unknown,PcfIs,en,,,,,O,359,,JImmy,zztestGrtmr,,401 W. Mineral King,"""""",Visalia,CA,93291
+150,48435,E35,1,ADT-A03,01:00.0,3334775,CA00030,Routine,Mcare A,JImmy,zztestGrtmr,,12494 Address line,,Visalia,CA,93291,    ,00:00.0,,M,,,,Unknown,PcfIs,en,,,,,O,930,,,,,,,,  ,     
+151,48436,E35,1,ADT-A08,01:00.0,3334776,CA00031,Routine,Mcare A,JImmy,zztestGrtmr,,12495 Address line,,Visalia,CA,93291,    ,00:00.0,,M,,,,Unknown,PcfIs,en,,,,,O,383,,JImmy,zztestGrtmr,,401 W. Mineral King,,Visalia,CA,93291
+152,48438,E35,1,ADT-A08,06:00.0,3334778,CA00032,Routine,WC,Zztesterreg1,Zzcert,,12496 Address line,,Visalia,CA,93291,    ,00:00.0,,F,,,,NotHIS,White,en,,ilovecats@gmail.com,,,O,872,,Zztesterreg1,Zzcert,,315 E Main St Ste C,,Visalia,CA,93291
+153,48443,E35,1,ADT-A04,21:00.0,3334783,CA00033,,Mcare A,ChargesOne,Zztest,,12497 Address line,"""""",Visalia,CA,93292,    ,00:00.0,,F,,,,NotHIS,White,en,,,,,O,331,,ChargesOne,Zztest,,123 Main Street,"""""",Visalia,CA,93292
+154,48446,E35,1,ADT-A08,38:00.0,3334786,CA00034,Routine,Mcare A,JImmy,zztestGrtmr,,12498 Address line,,Visalia,CA,93291,    ,00:00.0,,M,,,,Unknown,PcfIs,en,,,,,O,615,,JImmy,zztestGrtmr,,401 W. Mineral King,,Visalia,CA,93291
+155,48465,E35,1,ADT-A08,56:00.0,3334805,CA00035,Admitted,TRICARE,Nick,Zztest,,12499 Address line,,Tulare,CA,     ,    ,00:00.0,,M,,,,Unknown,White,en,,blahblahblah@gmail.com,,,O,611,,Nick,Zztest,,1000 Your Street,,Tulare,CA,     
+156,66037,I71,1,ORM-O01,41:31.0,3352159,CA00036,,P,Emergency,Cttest,,12500 Address line,,,IN,     ,    ,00:00.0,,F,,,,,W,EN,,,,,O,577,,Emergency,Cttest,,,,,IN,     
+157,66098,I71,1,ORM-O01,42:02.0,3352215,CA00001,,P,Santa,Uptest,,12501 Address line,,,IN,     ,    ,00:00.0,,M,,,,,W,,,,,,O,690,,Santa,Uptest,,,,,IN,     
+158,70569,I71,1,ORM-O01,19:46.0,3352341,CA00002,,P,Emergency,Cttest,,12502 Address line,,,IN,     ,    ,00:00.0,,F,,,,,W,EN,,,,,O,610,,Emergency,Cttest,,,,,IN,     
+159,70570,I71,1,ORM-O01,19:48.0,3352342,CA00003,,P,Emergency,Cttest,,12503 Address line,,,IN,     ,    ,00:00.0,,F,,,,,W,EN,,,,,O,571,,Emergency,Cttest,,,,,IN,     
+160,66043,I71,1,ADT-A02,41:32.0,3352160,CA00004,,P,Emergency,Cttest,,12504 Address line,,,IN,     ,    ,00:00.0,,F,0,,,,W,EN,,,,,O,515,,,,,,,,,
+161,6356302,I71,1,ORM-O01,52:47.0,3500701,CA00005,,P,Unertwoecone,Cttest,,12505 Address line,,,IN,     ,    ,00:00.0,,M,,,,,W,,,,,,O,949,,Unertwoecone,Cttest,,,,,IN,     
+162,6356303,I71,1,ORM-O01,52:48.0,3500702,CA00006,,P,Unertwoecone,Cttest,,12506 Address line,,,IN,     ,    ,00:00.0,,M,,,,,W,,,,,,O,379,,Unertwoecone,Cttest,,,,,IN,     
+163,66100,I71,1,ADT-A02,44:49.0,3352217,CA00003,,P,Santa,Uptest,,12507 Address line,,,IN,     ,    ,00:00.0,,M,0,,,NON,W,EN,,,,,O,729,,,,,,,,,
+164,2231406,E35,1,ADT-A08,08:00.0,3358159,CA00004,,WC,ZztestED,Zztest,,12508 Address line,,Visalia,CA,93292,    ,00:00.0,,M,,,,NotHIS,AshianI,en,,,,,O,417,,ZztestED,Zztest,,PO Box 35,,Visalia,CA,93292
+165,2231407,E35,1,ADT-A04,16:00.0,3358160,CA00005,,,Zztested,ZztestED24,"""""",12509 Address line,,,  ,     ,    ,00:00.0,,F,,,,,,,,,,,,728,,Zztested,ZztestED24,"""""",,,,  ,     
+166,66105,I71,1,ADT-A02,59:13.0,3352222,CA00006,,P,Santa,Uptest,,12510 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,822,,,,,,,,,
+167,2231409,E35,1,ADT-A04,48:00.0,3358162,CA00047,,,Zztest,ZzcertED01,"""""",12511 Address line,,,  ,     ,    ,00:00.0,,M,999999999,,,,,,,,,,,548,,Zztest,ZzcertED01,"""""",,,,  ,     
+168,2231413,E35,1,ADT-A04,32:00.0,3358166,CA00048,,,ZztestED45,Zztest3ED,"""""",12512 Address line,,,  ,     ,    ,00:00.0,,M,999999999,,,,,,,,,,,513,,ZztestED45,Zztest3ED,"""""",,,,  ,     
+169,6356344,I71,1,ADT-A02,00:28.0,3500743,CA00049,,P,Unerfourwcthree,Cttest,,12513 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,,B,,,,,,O,926,,,,,,,,,
+170,66062,I71,1,ADT-A02,14:15.0,3352179,CA00001,,P,Unamy,Uptest,,12514 Address line,,Terre Haute,IN,47805,    ,00:00.0,,F,999999999,,,NON,W,EN,,,317,2378238,O,504,,,,,,,,,
+171,66106,I71,1,ADT-A02,00:26.0,3352223,CA00002,,P,Santa,Uptest,,12515 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,379,,,,,,,,,
+172,66063,I71,1,ADT-A02,15:40.0,3352180,CA00003,,P,Unamy,Uptest,,12516 Address line,,Terre Haute,IN,47805,    ,00:00.0,,F,999999999,,,NON,W,EN,,,317,2378238,O,394,,,,,,,,,
+173,2231418,E35,1,ADT-A04,32:00.0,3358171,CA00004,,,ZztestingERone,Zzcert,,12517 Address line,,,  ,     ,    ,00:00.0,,F,999999999,,,,,,,,,,,376,,ZztestingERone,Zzcert,,,,,  ,     
+174,2231419,E35,1,ADT-A04,37:00.0,3358172,CA00005,,,ZztestingERtwo,Zzcert,,12518 Address line,,,  ,     ,    ,00:00.0,,M,999999999,,,,,,,,,,,523,,ZztestingERtwo,Zzcert,,,,,  ,     
+175,66067,I71,1,ADT-A02,34:45.0,3352184,CA00006,,P,Unamy,Uptest,,12519 Address line,,Terre Haute,IN,47805,    ,00:00.0,,F,999999999,,,NON,W,EN,,,317,2378238,O,522,,,,,,,,,
+176,2256536,I71,1,ADT-A02,25:58.0,3383289,CA00001,,P,Will,Cttest,,12520 Address line,,Plainfield,IN,46168,    ,00:00.0,,M,999999999,,,NON,W,EN,,,0,0,O,854,,,,,,,,,
+177,66107,I71,1,ADT-A03,03:10.0,3352224,CA00002,AHR,P,Santa,Uptest,,12521 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,918,,,,,,,,,
+178,66109,I71,1,ADT-A02,04:03.0,3352226,CA00003,,P,Santa,Uptest,,12522 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,753,,,,,,,,,
+179,66111,I71,1,ADT-A02,04:33.0,3352228,CA00004,,P,Santa,Uptest,,12523 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,644,,,,,,,,,
+180,66114,I71,1,ADT-A02,07:51.0,3352231,CA00005,,P,Santa,Uptest,,12524 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,NON,W,EN,,,,,O,366,,,,,,,,,
+181,66070,I71,1,ADT-A04,01:40.0,3352187,CA00006,,P,Matt,Uptest,,12525 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,,X,,,,,,O,523,,Matt,Uptest,,,,,IN,     
+182,66123,I71,1,ADT-A02,19:37.0,3352238,CA00062,,P,Hailey,Uptest,,12526 Address line,20,Carmel,IN,46033,    ,00:00.0,,F,999999999,,,,W,EN,,,317,8500021,O,387,,,,,,,,,
+183,66071,I71,1,ADT-A02,01:41.0,3352188,CA00063,,P,Matt,Uptest,,12527 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,,X,,,,,,O,344,,,,,,,,,
+184,66301,I71,1,ADT-A02,20:15.0,3352239,CA00064,,P,Hailey,Uptest,,12528 Address line,20,Carmel,IN,46033,    ,00:00.0,,F,999999999,,,,W,EN,,,317,8500021,O,686,,,,,,,,,
+185,66072,I71,1,ADT-A02,03:34.0,3352189,CA00065,,P,Matt,Uptest,,12529 Address line,,,IN,     ,    ,00:00.0,,M,999999999,,,,X,,,,,,O,849,,,,,,,,,
+186,66074,I71,1,ADT-A02,11:07.0,3352191,CA00066,,P,Matt,Uptest,,12530 Address line,,TERRE HAUTE,IN,47809,1,00:00.0,,M,999999999,,,NON,X,EN,,,,,O,401,,,,,,,,,
+187,67810,I71,1,ADT-A02,24:32.0,3352242,CA00001,,P,Hailey,Uptest,,12531 Address line,,CARMEL,IN,46033,649,00:00.0,,F,999999999,,,NON,W,EN,,,317,8500021,O,730,,,,,,,,,
+188,66078,I71,1,ADT-A02,07:52.0,3352195,CA00001,,P,Brandon,Uptest,,12532 Address line,,Danville,IN,46122,    ,00:00.0,,M,999999999,,,NON,X,EN,,,,,O,745,,,,,,,,,
+189,66079,I71,1,ADT-A02,08:13.0,3352196,CA00001,,P,Brandon,Uptest,,12533 Address line,,Danville,IN,46122,    ,00:00.0,,M,999999999,,,NON,X,EN,,,,,O,360,,,,,,,,,
+190,2231431,E35,1,ADT-A04,35:00.0,3358184,CA00001,,,Zzertestthree,Zzcert,,12534 Address line,,,  ,     ,    ,00:00.0,,F,,,,,,,,,,,,772,,Zzertestthree,Zzcert,,,,,  ,     
+191,66081,I71,1,ADT-A02,25:52.0,3352198,CA00001,,P,Brandon,Uptest,,12535 Address line,,Danville,IN,46122,    ,00:00.0,,M,999999999,,,NON,X,EN,,,,,O,365,,,,,,,,,
+192,66085,I71,1,ADT-A02,28:35.0,3352202,CA00001,,P,Clindoc,Uptest,,12536 Address line,,Carmel,IN,46032,    ,,,M,999999999,,,NON,W,EN,,,317,7777777,O,861,,,,,,,,,
+193,66088,I71,1,ADT-A02,28:53.0,3352205,CA00002,,P,Clindoc,Uptest,,12537 Address line,,Carmel,IN,46032,    ,,,M,999999999,,,NON,W,EN,,,317,7777777,O,485,,,,,,,,,
+194,64950,I71,1,ORM-O01,20:23.0,3351131,CA00003,,P,Uner,Upttest,,12538 Address line,,,IN,     ,    ,00:00.0,,M,,,,,B,,,,,,O,705,,Uner,Upttest,,,,,IN,     
+195,64952,I71,1,ORM-O01,20:24.0,3351132,CA00004,,P,Uner,Upttest,,12539 Address line,,,IN,     ,    ,00:00.0,,M,,,,,B,,,,,,O,448,,Uner,Upttest,,,,,IN,     
+196,64953,I71,1,ORM-O01,20:45.0,3351133,CA00005,,P,Uner,Upttest,,12540 Address line,,,IN,     ,    ,00:00.0,,M,,,,,B,,,,,,O,406,,Uner,Upttest,,,,,IN,     
+197,64954,I71,1,ORM-O01,20:46.0,3351134,CA00006,,P,Uner,Upttest,,12541 Address line,,,IN,     ,    ,00:00.0,,M,,,,,B,,,,,,O,551,,Uner,Upttest,,,,,IN,     
+198,59157,I71,1,ADT-A04,05:10.0,3345345,CA00005,,P,Uner,Upttest,,12542 Address line,,,IN,     ,    ,00:00.0,,M,0,,,,B,,,,,,O,771,,Uner,Upttest,,,,,IN,     
+199,59158,I71,1,ADT-A02,05:11.0,3345346,CA00006,,P,Uner,Upttest,,12543 Address line,,,IN,     ,    ,00:00.0,,M,0,,,,B,,,,,,O,614,,,,,,,,,
+200,59168,I71,1,ADT-A02,41:13.0,3345356,CA00007,,P,Uner,Upttest,,12544 Address line,,,IN,     ,    ,00:00.0,,M,0,,,,B,,,,,,O,511,,,,,,,,,
