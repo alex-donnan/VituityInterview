@@ -1836,264 +1836,264 @@
 		},
 		"ZPV": {
 
-		}
-	},
-	"datatype": {
-		"CM_AUI": {
-			"field": "authorization_information",
-
-			"1": "authorization_number",
-			"2": "datetime",
-			"3": "source"
 		},
-		"CM_DDI": {
-			"field": "daily_deductible",
+		"datatype": {
+			"CM_AUI": {
+				"field": "authorization_information",
 
-			"1": "delay_days",
-			"2": "amount",
-			"3": "number_of_days"
-		},
-		"CM_DLD": {
-			"field": "discharge_location",
+				"1": "authorization_number",
+				"2": "datetime",
+				"3": "source"
+			},
+			"CM_DDI": {
+				"field": "daily_deductible",
 
-			"1": "discharge_location",
-			"2": "effective_date"
-		},
-		"CM_EIP": {
-			"field": "parent_order",
+				"1": "delay_days",
+				"2": "amount",
+				"3": "number_of_days"
+			},
+			"CM_DLD": {
+				"field": "discharge_location",
 
-			"1": "placer_order_number",
-			"2": "filler_order_number"
-		},
-		"CM_MOC": {
-			"field": "charge_to_practice",
+				"1": "discharge_location",
+				"2": "effective_date"
+			},
+			"CM_EIP": {
+				"field": "parent_order",
 
-			"1": "dollar_amount",
-			"2": "charge_code"
-		},
-		"CM_MSG": {
-			"field": "message_type",
+				"1": "placer_order_number",
+				"2": "filler_order_number"
+			},
+			"CM_MOC": {
+				"field": "charge_to_practice",
 
-			"1": "message_type",
-			"2": "trigger_event"
-		},
-		"CM_NDL": {
-			"field": "observing_practitioner",
+				"1": "dollar_amount",
+				"2": "charge_code"
+			},
+			"CM_MSG": {
+				"field": "message_type",
 
-			"1": "op_name",
-			"2": "start_datetime",
-			"3": "end_datetime",
-			"4": "point_of_care",
-			"5": "room",
-			"6": "bed",
-			"7": "facility",
-			"8": "location_status",
-			"9": "person_location_type",
-			"10": "building",
-			"11": "floor"
-		},
-		"CM_PRL": {
-			"field": "parent_result_link",
+				"1": "message_type",
+				"2": "trigger_event"
+			},
+			"CM_NDL": {
+				"field": "observing_practitioner",
 
-			"1": "result_id",
-			"2": "result_sub_id",
-			"3": "result"
-		},
-		"CM_RMC": {
-			"field": "room_coverage",
+				"1": "op_name",
+				"2": "start_datetime",
+				"3": "end_datetime",
+				"4": "point_of_care",
+				"5": "room",
+				"6": "bed",
+				"7": "facility",
+				"8": "location_status",
+				"9": "person_location_type",
+				"10": "building",
+				"11": "floor"
+			},
+			"CM_PRL": {
+				"field": "parent_result_link",
 
-			"1": "room_type",
-			"2": "amount_type",
-			"3": "coverage_amount"
-		},
-		"CM_SPS": {
-			"field": "specimen_source",
+				"1": "result_id",
+				"2": "result_sub_id",
+				"3": "result"
+			},
+			"CM_RMC": {
+				"field": "room_coverage",
 
-			"1": "specimen_source_name_code",
-			"2": "additives",
-			"3": "text",
-			"4": "body_site",
-			"5": "site_modifier",
-			"6": "collection_modifier_code"
-		},
-		"CE": {
-			"field": "coded_element",
+				"1": "room_type",
+				"2": "amount_type",
+				"3": "coverage_amount"
+			},
+			"CM_SPS": {
+				"field": "specimen_source",
 
-			"1": "id",
-			"2": "text",
-			"3": "coding_system",
-			"4": "alt_id",
-			"5": "alt_text",
-			"6": "alt_coding_system"
-		},
-		"CP": {
-			"field": "composite_price",
+				"1": "specimen_source_name_code",
+				"2": "additives",
+				"3": "text",
+				"4": "body_site",
+				"5": "site_modifier",
+				"6": "collection_modifier_code"
+			},
+			"CE": {
+				"field": "coded_element",
 
-			"1": "price",
-			"2": "price_type",
-			"3": "from",
-			"4": "to",
-			"5": "range_unit",
-			"6": "range_type"
-		},
-		"CQ": {
-			"field": "composite_quantity",
+				"1": "id",
+				"2": "text",
+				"3": "coding_system",
+				"4": "alt_id",
+				"5": "alt_text",
+				"6": "alt_coding_system"
+			},
+			"CP": {
+				"field": "composite_price",
 
-			"1": "quantity",
-			"2": "units"
-		},
-		"CX": {
-			"field": "extended_composite_id_check_digit",
+				"1": "price",
+				"2": "price_type",
+				"3": "from",
+				"4": "to",
+				"5": "range_unit",
+				"6": "range_type"
+			},
+			"CQ": {
+				"field": "composite_quantity",
 
-			"1": "id",
-			"2": "id_check_digit",
-			"3": "id_check_digit_scheme",
-			"4": "authority",
-			"5": "id_type_code",
-			"6": "id_facility"
-		},
-		"DLN": {
-			"field": "drivers_license_number",
+				"1": "quantity",
+				"2": "units"
+			},
+			"CX": {
+				"field": "extended_composite_id_check_digit",
 
-			"1": "drivers_license_number",
-			"2": "issuing_state_province_country",
-			"3": "expiration_date"
-		},
-		"EI": {
-			"field": "entity_id",
+				"1": "id",
+				"2": "id_check_digit",
+				"3": "id_check_digit_scheme",
+				"4": "authority",
+				"5": "id_type_code",
+				"6": "id_facility"
+			},
+			"DLN": {
+				"field": "drivers_license_number",
 
-			"1": "entity_id",
-			"2": "namespace_id",
-			"3": "universal_id",
-			"4": "universal_id_type"
-		},
-		"FC": {
-			"field": "financial_class",
+				"1": "drivers_license_number",
+				"2": "issuing_state_province_country",
+				"3": "expiration_date"
+			},
+			"EI": {
+				"field": "entity_id",
 
-			"1": "financial_class",
-			"2": "effective_date"
-		},
-		"HD": {
-			"field": "hierarchic_designator",
+				"1": "entity_id",
+				"2": "namespace_id",
+				"3": "universal_id",
+				"4": "universal_id_type"
+			},
+			"FC": {
+				"field": "financial_class",
 
-			"1": "namespace_id",
-			"2": "universal_id",
-			"3": "universal_id_type"
-		},
-		"JCC": {
-			"field": "job_code_class",
+				"1": "financial_class",
+				"2": "effective_date"
+			},
+			"HD": {
+				"field": "hierarchic_designator",
 
-			"1": "job_code",
-			"2": "job_class"
-		},
-		"PL": {
-			"field": "person_location",
+				"1": "namespace_id",
+				"2": "universal_id",
+				"3": "universal_id_type"
+			},
+			"JCC": {
+				"field": "job_code_class",
 
-			"1": "point_of_care",
-			"2": "room",
-			"3": "bed",
-			"4": "facility",
-			"5": "location_status",
-			"6": "person_location_type",
-			"7": "building",
-			"8": "floor",
-			"9": "location_type"
-		},
-		"PT": {
-			"field": "processing_type",
+				"1": "job_code",
+				"2": "job_class"
+			},
+			"PL": {
+				"field": "person_location",
 
-			"1": "processing_id",
-			"2": "processing_mode"
-		},
-		"PTA": {
-			"field": "policy_type",
+				"1": "point_of_care",
+				"2": "room",
+				"3": "bed",
+				"4": "facility",
+				"5": "location_status",
+				"6": "person_location_type",
+				"7": "building",
+				"8": "floor",
+				"9": "location_type"
+			},
+			"PT": {
+				"field": "processing_type",
 
-			"1": "policy_type",
-			"2": "amount_class",
-			"3": "amount"
-		},
-		"TQ": {
-			"field": "timing_quantity",
+				"1": "processing_id",
+				"2": "processing_mode"
+			},
+			"PTA": {
+				"field": "policy_type",
 
-			"1": "quantity",
-			"2": "interval",
-			"3": "duration",
-			"4": "start_datetime",
-			"5": "end_datetime",
-			"6": "priority",
-			"7": "condition",
-			"8": "text",
-			"9": "conjunction",
-			"10": "order_sequencing"
-		},
-		"XAD": {
-			"field": "extended_address",
+				"1": "policy_type",
+				"2": "amount_class",
+				"3": "amount"
+			},
+			"TQ": {
+				"field": "timing_quantity",
 
-			"1": "street_address",
-			"2": "street_address2",
-			"3": "city",
-			"4": "state",
-			"5": "zip",
-			"6": "country",
-			"7": "address_type",
-			"8": "other_geographic_designation",
-			"9": "county_parish_code",
-			"10": "census_tract"
-		},
-		"XCN": {
-			"field": "extended_composite_id_name",
+				"1": "quantity",
+				"2": "interval",
+				"3": "duration",
+				"4": "start_datetime",
+				"5": "end_datetime",
+				"6": "priority",
+				"7": "condition",
+				"8": "text",
+				"9": "conjunction",
+				"10": "order_sequencing"
+			},
+			"XAD": {
+				"field": "extended_address",
 
-			"1": "id",
-			"2": "last_name",
-			"3": "first_name",
-			"4": "middle_name",
-			"5": "suffix",
-			"6": "prefix",
-			"7": "degree",
-			"8": "source_table",
-			"9": "authority",
-			"10": "name_type",
-			"11": "id_check_digit",
-			"12": "id_check_digit_scheme",
-			"13": "id_type_code",
-			"14": "id_facility"
-		},
-		"XON": {
-			"field": "extended_organization_id_name",
+				"1": "street_address",
+				"2": "street_address2",
+				"3": "city",
+				"4": "state",
+				"5": "zip",
+				"6": "country",
+				"7": "address_type",
+				"8": "other_geographic_designation",
+				"9": "county_parish_code",
+				"10": "census_tract"
+			},
+			"XCN": {
+				"field": "extended_composite_id_name",
 
-			"1": "organization_name",
-			"2": "organization_type_code",
-			"3": "id",
-			"4": "id_check_digit",
-			"5": "id_check_digit_scheme",
-			"6": "authority",
-			"7": "id_type_code",
-			"8": "id_facility"
-		},
-		"XPN": {
-			"field": "extended_persons_name",
+				"1": "id",
+				"2": "last_name",
+				"3": "first_name",
+				"4": "middle_name",
+				"5": "suffix",
+				"6": "prefix",
+				"7": "degree",
+				"8": "source_table",
+				"9": "authority",
+				"10": "name_type",
+				"11": "id_check_digit",
+				"12": "id_check_digit_scheme",
+				"13": "id_type_code",
+				"14": "id_facility"
+			},
+			"XON": {
+				"field": "extended_organization_id_name",
 
-			"1": "last_name",
-			"2": "first_name",
-			"3": "middle_name",
-			"4": "suffix",
-			"5": "prefix",
-			"6": "degree",
-			"7": "name_type_code",
-			"8": "name_representation_code"
-		},
-		"XTN": {
-			"field": "extended_telephone_number",
-			
-			"1": "telephone_number",
-			"2": "telecom_use_code",
-			"3": "telecom_equipment_type",
-			"4": "email_address",
-			"5": "country_code",
-			"6": "area_city_code",
-			"7": "phone_number",
-			"8": "extension",
-			"9": "any_text"
+				"1": "organization_name",
+				"2": "organization_type_code",
+				"3": "id",
+				"4": "id_check_digit",
+				"5": "id_check_digit_scheme",
+				"6": "authority",
+				"7": "id_type_code",
+				"8": "id_facility"
+			},
+			"XPN": {
+				"field": "extended_persons_name",
+
+				"1": "last_name",
+				"2": "first_name",
+				"3": "middle_name",
+				"4": "suffix",
+				"5": "prefix",
+				"6": "degree",
+				"7": "name_type_code",
+				"8": "name_representation_code"
+			},
+			"XTN": {
+				"field": "extended_telephone_number",
+				
+				"1": "telephone_number",
+				"2": "telecom_use_code",
+				"3": "telecom_equipment_type",
+				"4": "email_address",
+				"5": "country_code",
+				"6": "area_city_code",
+				"7": "phone_number",
+				"8": "extension",
+				"9": "any_text"
+			}
 		}
 	}
 }
